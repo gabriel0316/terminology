@@ -1,0 +1,4719 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7-at-patientidentifier",
+  "url": "https://termgit.elga.gv.at/ValueSet/hl7-at-patientidentifier",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.6.0.10.77"
+    }
+  ],
+  "version": "1.1.0+20240111",
+  "name": "hl7-at-patientidentifier",
+  "title": "HL7-at_PatientIdentifier",
+  "status": "active",
+  "date": "2024-01-11",
+  "description": "**Description:** HL7-defined code system of concepts specifying type of identifier.\n\n**Beschreibung:** Durch HL7 definierte Konzepte f\u00fcr die Spezifizierung von Identifikationsarten",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "concept": [
+          {
+            "code": "AC",
+            "display": "Accreditation/Certification Identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Akkreditierungs-/ Zertifizierungs-Identifikator"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier that has been assigned by an accreditation or certification organization in specific fields, indicating a recognized skill"
+              }
+            ]
+          },
+          {
+            "code": "ACSN",
+            "display": "Accession ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Accession Identifier"
+              }
+            ]
+          },
+          {
+            "code": "AIN",
+            "display": "Animal Identification Number (US Official)",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A numbering system for the official identification of individual animals in the United States that provides a nationally unique identification number for each animal. The first two numbers on a tag are the numbers assigned to a specific State."
+              }
+            ]
+          },
+          {
+            "code": "AM",
+            "display": "American Express",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "American Express"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "American Express"
+              }
+            ]
+          },
+          {
+            "code": "AMA",
+            "display": "American Medical Association Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A physician identifier assigned by the AMA."
+              }
+            ]
+          },
+          {
+            "code": "AN",
+            "display": "Account number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Kontonummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Account An identifier that is unique to an account."
+              }
+            ]
+          },
+          {
+            "code": "ANC",
+            "display": "Account number Creditor",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Kreditor-Kontonummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A more precise definition of an account number"
+              }
+            ]
+          },
+          {
+            "code": "AND",
+            "display": "Account number debitor",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Debitor-Kontonummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A more precise definition of an account number"
+              }
+            ]
+          },
+          {
+            "code": "ANON",
+            "display": "Anonymous identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Anonym-Identifikator"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for a living subject whose real identity is protected or suppressed"
+              }
+            ]
+          },
+          {
+            "code": "ANT",
+            "display": "Temporary Account Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vor\u00fcbergehende Kontonummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Temporary version of an Account Number"
+              }
+            ]
+          },
+          {
+            "code": "APRN",
+            "display": "Advanced Practice Registered Nurse number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to an advanced practice registered nurse within the jurisdiction of a certifying board"
+              }
+            ]
+          },
+          {
+            "code": "ASID",
+            "display": "Ancestor Specimen ID",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Prim\u00e4rprobennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A unique identifier for the ancestor specimen."
+              }
+            ]
+          },
+          {
+            "code": "BA",
+            "display": "Bank Account Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Bankkonto-Nummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Bank Account Number"
+              }
+            ]
+          },
+          {
+            "code": "BC",
+            "display": "Bank Card Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Bankkarten-Nummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a person's bank card"
+              }
+            ]
+          },
+          {
+            "code": "BCFN",
+            "display": "Birth Certificate File Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The identifier used within the jurisdictional vital records office file system as an auxiliary means of accessing the record associated with the birth certificate."
+              }
+            ]
+          },
+          {
+            "code": "BCT",
+            "display": "Birth Certificate",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Geburtsurkunden-Zahl"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a document identifying the event of a person's birth"
+              }
+            ]
+          },
+          {
+            "code": "BR",
+            "display": "Birth registry number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Geburtsregisternummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier unique within the Assigning Authority that is the official legal record of a person's birth."
+              }
+            ]
+          },
+          {
+            "code": "BRN",
+            "display": "Breed Registry Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Zuchtbuchnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Breed Registry Number"
+              }
+            ]
+          },
+          {
+            "code": "BSNR",
+            "display": "Primary physician office number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Primary physician office number"
+              }
+            ]
+          },
+          {
+            "code": "CAAI",
+            "display": "Consumer Application Account Identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Kundenkonto-Identifikator"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for the consumer (e.g., patient, caregiver) for an application such as a portal or App."
+              }
+            ]
+          },
+          {
+            "code": "CC",
+            "display": "Cost Center number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Kostenstellennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Cost Center number"
+              }
+            ]
+          },
+          {
+            "code": "CONM",
+            "display": "Change of Name Document",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a document identifying a person's legal change of name."
+              }
+            ]
+          },
+          {
+            "code": "CY",
+            "display": "County number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Katastralgemeindenummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "County number"
+              }
+            ]
+          },
+          {
+            "code": "CZ",
+            "display": "Citizenship Card",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number assigned by a person's country of residence to identify a person's citizenship."
+              }
+            ]
+          },
+          {
+            "code": "DC",
+            "display": "Death Certificate ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The identifier assigned to a death certificate, and printed on the death certificate when issued by a jurisdictional vital records office"
+              }
+            ]
+          },
+          {
+            "code": "DCFN",
+            "display": "Death Certificate File Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Sterbeurkunden-Zahl"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The identifier used within the jurisdictional vital records office file system as an auxiliary means of accessing the record associated with the death certificate."
+              }
+            ]
+          },
+          {
+            "code": "DDS",
+            "display": "Dentist license number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Zahnarztnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a dentist within the jurisdiction of the licensing board"
+              }
+            ]
+          },
+          {
+            "code": "DEA",
+            "display": "Drug Enforcement Administration registration number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for an individual or organization relative to controlled substance regulation and transactions."
+              }
+            ]
+          },
+          {
+            "code": "DFN",
+            "display": "Drug Furnishing or prescriptive authority Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier issued to a health care provider authorizing the person to write drug orders"
+              }
+            ]
+          },
+          {
+            "code": "DI",
+            "display": "Diner's Club card",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Diners Club"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Diner's Club card"
+              }
+            ]
+          },
+          {
+            "code": "DL",
+            "display": "Driver's license number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "F\u00fchrerscheinnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Driver's license number"
+              }
+            ]
+          },
+          {
+            "code": "DN",
+            "display": "Doctor number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Arztnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Doctor number"
+              }
+            ]
+          },
+          {
+            "code": "DO",
+            "display": "Osteopathic License number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to an osteopath within the jurisdiction of a licensing board."
+              }
+            ]
+          },
+          {
+            "code": "DP",
+            "display": "Diplomatic Passport",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Diplomatenpass"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number assigned to a diplomatic passport."
+              }
+            ]
+          },
+          {
+            "code": "DPM",
+            "display": "Podiatrist license number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a podiatrist within the jurisdiction of the licensing board."
+              }
+            ]
+          },
+          {
+            "code": "DR",
+            "display": "Donor Registration Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Spendernummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Donor Registration Number"
+              }
+            ]
+          },
+          {
+            "code": "DS",
+            "display": "Discover Card",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Discover Card"
+              }
+            ]
+          },
+          {
+            "code": "DSG",
+            "display": "Diagnostic Study Group",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Diagnostische Studiengruppennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Unique Identifier that groups several orders that are to be performed together."
+              }
+            ]
+          },
+          {
+            "code": "EI",
+            "display": "Employee number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Arbeitnehmernummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number that uniquely identifies an employee to an employer."
+              }
+            ]
+          },
+          {
+            "code": "EN",
+            "display": "Employer number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Arbeitgebernummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Employer number"
+              }
+            ]
+          },
+          {
+            "code": "ESN",
+            "display": "Staff Enterprise Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Personalunternehmensnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a staff member within an enterprise (as identified by the Assigning Authority)."
+              }
+            ]
+          },
+          {
+            "code": "FDR",
+            "display": "Fetal Death Report ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The identifier assigned to a fetal death report, and printed on the fetal death report when issued by a jurisdictional vital records office"
+              }
+            ]
+          },
+          {
+            "code": "FDRFN",
+            "display": "Fetal Death Report File Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Aktenzeichen der Totgeburt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The identifier used within the jurisdictional vital records office file system as an auxiliary means of accessing the record associated with the fetal death report certificate."
+              }
+            ]
+          },
+          {
+            "code": "FGN",
+            "display": "Filler Group Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Leistungsstellengruppennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Unique identifier assigned to a group of orders by the filler application."
+              }
+            ]
+          },
+          {
+            "code": "FI",
+            "display": "Facility ID",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Einrichtungsnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Facility ID"
+              }
+            ]
+          },
+          {
+            "code": "FILL",
+            "display": "Filler Identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Leistungsstellennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for a request where the identifier is issued by the person, or service, that produces the observations or fulfills the request."
+              }
+            ]
+          },
+          {
+            "code": "GI",
+            "display": "Guarantor internal identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "interne ID des Zahlungspflichtigen"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Guarantor internal identifier"
+              }
+            ]
+          },
+          {
+            "code": "GIN",
+            "display": "Animal Group Identifier (US Official)",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier that can be used to unambiguously describe a specific group of animals."
+              }
+            ]
+          },
+          {
+            "code": "GL",
+            "display": "General ledger number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Hauptbuchnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "General ledger number"
+              }
+            ]
+          },
+          {
+            "code": "GN",
+            "display": "Guarantor external identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "externe ID des Zahlungspflichtigen"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Guarantor external identifier"
+              }
+            ]
+          },
+          {
+            "code": "HC",
+            "display": "Health Card Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Health Card Number"
+              }
+            ]
+          },
+          {
+            "code": "IND",
+            "display": "Indigenous/Aboriginal",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number assigned to a member of an indigenous or aboriginal group outside of Canada."
+              }
+            ]
+          },
+          {
+            "code": "JHN",
+            "display": "Jurisdictional health number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Jurisdictional health number"
+              }
+            ]
+          },
+          {
+            "code": "LACSN",
+            "display": "Laboratory Accession ID",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Labor-Eingangsnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A laboratory accession id is used in the laboratory domain."
+              }
+            ]
+          },
+          {
+            "code": "LANR",
+            "display": "Lifelong physician number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Lifelong physician number"
+              }
+            ]
+          },
+          {
+            "code": "LI",
+            "display": "Labor and industries number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Labor and industries number"
+              }
+            ]
+          },
+          {
+            "code": "L&I",
+            "display": "Labor and industries number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Labor and industries number. Note that this was introduced erroneously (with an ampersand in the code value) many years ago."
+              }
+            ]
+          },
+          {
+            "code": "LN",
+            "display": "License number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Lizenznummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "License number"
+              }
+            ]
+          },
+          {
+            "code": "LR",
+            "display": "Local Registry ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Local Registry ID"
+              }
+            ]
+          },
+          {
+            "code": "MA",
+            "display": "Patient Medicaid number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Patient Medicaid number"
+              }
+            ]
+          },
+          {
+            "code": "MB",
+            "display": "Member Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for the insured of an insurance policy (this insured always has a subscriber), usually assigned by the insurance carrier."
+              }
+            ]
+          },
+          {
+            "code": "MC",
+            "display": "Patient's Medicare number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Patient's Medicare number"
+              }
+            ]
+          },
+          {
+            "code": "MCD",
+            "display": "Practitioner Medicaid number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Practitioner Medicaid number"
+              }
+            ]
+          },
+          {
+            "code": "MCN",
+            "display": "Microchip Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Mikrochipnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Microchip Number"
+              }
+            ]
+          },
+          {
+            "code": "MCR",
+            "display": "Practitioner Medicare number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Practitioner Medicare number"
+              }
+            ]
+          },
+          {
+            "code": "MCT",
+            "display": "Marriage Certificate",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Heiratsurkunden-Zahl"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a document identifying the event of a person's marriage."
+              }
+            ]
+          },
+          {
+            "code": "MD",
+            "display": "Medical License number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a medical doctor within the jurisdiction of a licensing board."
+              }
+            ]
+          },
+          {
+            "code": "MI",
+            "display": "Military ID number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Personenkennziffer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number assigned to an individual who has had military duty, but is not currently on active duty. The number is assigned by the DOD or Veterans' Affairs (VA)."
+              }
+            ]
+          },
+          {
+            "code": "MR",
+            "display": "Medical record number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Krankenaktennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a patient within a set of medical records, not necessarily unique within an application."
+              }
+            ]
+          },
+          {
+            "code": "MRT",
+            "display": "Temporary Medical Record Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Temporary version of a Medical Record Number"
+              }
+            ]
+          },
+          {
+            "code": "MS",
+            "display": "MasterCard",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "MasterCard"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "MasterCard"
+              }
+            ]
+          },
+          {
+            "code": "NBSNR",
+            "display": "Secondary physician office number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Secondary physician office number"
+              }
+            ]
+          },
+          {
+            "code": "NCT",
+            "display": "Naturalization Certificate",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a document identifying a person's retention of citizenship in a particular country."
+              }
+            ]
+          },
+          {
+            "code": "NE",
+            "display": "National employer identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National employer identifier"
+              }
+            ]
+          },
+          {
+            "code": "NH",
+            "display": "National Health Plan Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National Health Plan Identifier"
+              }
+            ]
+          },
+          {
+            "code": "NI",
+            "display": "National unique individual identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Nationaler eindeutiger Personenidentifikator"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National unique individual identifier"
+              }
+            ]
+          },
+          {
+            "code": "NII",
+            "display": "National Insurance Organization Identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Institutskennzeichen der Krankenkasse"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National Insurance Organization Identifier"
+              }
+            ]
+          },
+          {
+            "code": "NIIP",
+            "display": "National Insurance Payor Identifier (Payor)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vertragskassennummer (VKNR)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National Insurance Payor Identifier (Payor)"
+              }
+            ]
+          },
+          {
+            "code": "NNxxx",
+            "display": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"
+              }
+            ]
+          },
+          {
+            "code": "NP",
+            "display": "Nurse practitioner number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a nurse practitioner within the jurisdiction of a certifying board."
+              }
+            ]
+          },
+          {
+            "code": "NPI",
+            "display": "National provider identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vertragspartnernummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National provider identifier"
+              }
+            ]
+          },
+          {
+            "code": "OBI",
+            "display": "Observation Instance Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Unique and persistent identifier for an observation instance"
+              }
+            ]
+          },
+          {
+            "code": "OD",
+            "display": "Optometrist license number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number that is unique to an individual optometrist within the jurisdiction of the licensing board."
+              }
+            ]
+          },
+          {
+            "code": "PA",
+            "display": "Physician Assistant number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Assistenzarztnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a physician assistant within the jurisdiction of a licensing board"
+              }
+            ]
+          },
+          {
+            "code": "PC",
+            "display": "Parole Card",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number identifying a person on parole."
+              }
+            ]
+          },
+          {
+            "code": "PCN",
+            "display": "Penitentiary/correctional institution Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number assigned to individual who is incarcerated."
+              }
+            ]
+          },
+          {
+            "code": "PE",
+            "display": "Living Subject Enterprise Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a living subject within an enterprise (as identified by the Assigning Authority)."
+              }
+            ]
+          },
+          {
+            "code": "PEN",
+            "display": "Pension Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Pensionsnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Pension Number"
+              }
+            ]
+          },
+          {
+            "code": "PGN",
+            "display": "Placer Group Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Auftragsgruppennummer des Anforderers"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Unique identifier assigned to a group of orders by the placer application."
+              }
+            ]
+          },
+          {
+            "code": "PHC",
+            "display": "Public Health Case Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier assigned to a person during a case investigation as part of a public health event"
+              }
+            ]
+          },
+          {
+            "code": "PHE",
+            "display": "Public Health Event Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier assigned to an event of interest to public health"
+              }
+            ]
+          },
+          {
+            "code": "PHO",
+            "display": "Public Health Official ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for a person working at a public health agency (PHA), assigned or issued by the agency"
+              }
+            ]
+          },
+          {
+            "code": "PI",
+            "display": "Patient internal identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "interne Patienten-ID"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number that is unique to a patient within an Assigning Authority."
+              }
+            ]
+          },
+          {
+            "code": "PIN",
+            "display": "Premises Identifier Number (US Official)",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier that uniquely identifies a geographic location in the US."
+              }
+            ]
+          },
+          {
+            "code": "PLAC",
+            "display": "Placer Identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "ID der anfordernden Stelle"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for a request where the identifier is issued by the person or service making the request."
+              }
+            ]
+          },
+          {
+            "code": "PN",
+            "display": "Person number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Personen-ID"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number that is unique to a living subject within an Assigning Authority."
+              }
+            ]
+          },
+          {
+            "code": "PNT",
+            "display": "Temporary Living Subject Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Temporary version of a Living Subject Number."
+              }
+            ]
+          },
+          {
+            "code": "PPIN",
+            "display": "Medicare/CMS Performing Provider Identification Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Medicare/CMS Performing Provider Identification Number"
+              }
+            ]
+          },
+          {
+            "code": "PPN",
+            "display": "Passport number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Passnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A unique number assigned to the document affirming that a person is a citizen of the country."
+              }
+            ]
+          },
+          {
+            "code": "PRC",
+            "display": "Permanent Resident Card Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Permanent Resident Card Number"
+              }
+            ]
+          },
+          {
+            "code": "PRN",
+            "display": "Provider number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number that is unique to an individual provider, a provider group or an organization within an Assigning Authority."
+              }
+            ]
+          },
+          {
+            "code": "PT",
+            "display": "Patient external identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "externe Patienten-ID"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Patient external identifier"
+              }
+            ]
+          },
+          {
+            "code": "QA",
+            "display": "QA number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "QA number"
+              }
+            ]
+          },
+          {
+            "code": "RI",
+            "display": "Resource identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ressourcen-ID"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A generalized resource identifier."
+              }
+            ]
+          },
+          {
+            "code": "RN",
+            "display": "Registered Nurse Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Eintragungsnummer Gesundheitsberuferegister"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a registered nurse within the jurisdiction of the licensing board."
+              }
+            ]
+          },
+          {
+            "code": "RPH",
+            "display": "Pharmacist license number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Apotheker-Nummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier that is unique to a pharmacist within the jurisdiction of the licensing board."
+              }
+            ]
+          },
+          {
+            "code": "RR",
+            "display": "Railroad Retirement number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Seniorenkartennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for an individual enrolled with the Railroad Retirement Administration. Analogous to, but distinct from, a Social Security Number"
+              }
+            ]
+          },
+          {
+            "code": "RRI",
+            "display": "Regional registry ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Regional registry ID"
+              }
+            ]
+          },
+          {
+            "code": "RRP",
+            "display": "Railroad Retirement Provider",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Railroad Retirement Provider"
+              }
+            ]
+          },
+          {
+            "code": "SAMN",
+            "display": "SAMN# accession Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The accession number for the BioSample data repository at the National Center for Biotechnology Information (NCBI)"
+              }
+            ]
+          },
+          {
+            "code": "SB",
+            "display": "Social Beneficiary Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier issued by a governmental organization to a person to identify the person should they apply for or receive social services and/or benefits"
+              }
+            ]
+          },
+          {
+            "code": "SID",
+            "display": "Specimen ID",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Probennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier for a specimen."
+              }
+            ]
+          },
+          {
+            "code": "SL",
+            "display": "State license",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "State license"
+              }
+            ]
+          },
+          {
+            "code": "SN",
+            "display": "Subscriber Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Teilnehmernummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for a subscriber of an insurance policy which is unique for, and usually assigned by, the insurance carrier."
+              }
+            ]
+          },
+          {
+            "code": "SNBSN",
+            "display": "State assigned NDBS card Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The identifier on a Newborn Screening Dried Bloodspot (NDBS) card that is assigned by the state which provided the sample collection cards and to whom this information must be reported"
+              }
+            ]
+          },
+          {
+            "code": "SNO",
+            "display": "Serial Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Seriennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier affixed to an item by the manufacturer when it is first made, where each item has a different identifier."
+              }
+            ]
+          },
+          {
+            "code": "SP",
+            "display": "Study Permit",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a permit identifying a person who is a resident of a jurisdiction for the purpose of education."
+              }
+            ]
+          },
+          {
+            "code": "SR",
+            "display": "State registry ID",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "State registry ID"
+              }
+            ]
+          },
+          {
+            "code": "SRX",
+            "display": "SRA Accession number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The accession number generated by the Sequence Read Archive (SRA) at the National Center for Biotechnology Information (NCBI) when sequence data are uploaded to NCBI."
+              }
+            ]
+          },
+          {
+            "code": "SS",
+            "display": "Social Security number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Sozialversicherungsnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Social Security number"
+              }
+            ]
+          },
+          {
+            "code": "STN",
+            "display": "Shipment Tracking Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Sendungsnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Identifier assigned to a package being shipped"
+              }
+            ]
+          },
+          {
+            "code": "TAX",
+            "display": "Tax ID number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Steuernummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Tax ID number"
+              }
+            ]
+          },
+          {
+            "code": "TN",
+            "display": "Treaty Number/ (Canada)",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number assigned to a member of an indigenous group in Canada."
+              }
+            ]
+          },
+          {
+            "code": "TPR",
+            "display": "Temporary Permanent Resident (Canada)",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a document identifying a person's temporary permanent resident status."
+              }
+            ]
+          },
+          {
+            "code": "TRL",
+            "display": "Training License Number",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The license number used during training."
+              }
+            ]
+          },
+          {
+            "code": "U",
+            "display": "Unspecified identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Nicht spezifizierte Kennung"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Unspecified identifier"
+              }
+            ]
+          },
+          {
+            "code": "UDI",
+            "display": "Universal Device Identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Einmalige Produktkennung"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier assigned to a device using the Unique Device Identification framework as defined by IMDRF (http://imdrf.org)."
+              }
+            ]
+          },
+          {
+            "code": "UPIN",
+            "display": "Medicare/CMS (formerly HCFA)'s Universal Physician Identification numbers",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An identifier for a provider within the CMS/Medicare program. A globally unique identifier for the provider in the Medicare program."
+              }
+            ]
+          },
+          {
+            "code": "USID",
+            "display": "Unique Specimen ID",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Eindeutige Probennummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A unique identifier for a specimen."
+              }
+            ]
+          },
+          {
+            "code": "VN",
+            "display": "Visit number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Fallnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Visit number"
+              }
+            ]
+          },
+          {
+            "code": "VP",
+            "display": "Visitor Permit",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Besucherkennung"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a document identifying a person as a visitor of a jurisdiction or country."
+              }
+            ]
+          },
+          {
+            "code": "VS",
+            "display": "VISA",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "VISA"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "VISA"
+              }
+            ]
+          },
+          {
+            "code": "WC",
+            "display": "WIC identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "WIC identifier"
+              }
+            ]
+          },
+          {
+            "code": "WCN",
+            "display": "Workers' Comp Number",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Arbeitsunfallnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Workers' Comp Number"
+              }
+            ]
+          },
+          {
+            "code": "WP",
+            "display": "Work Permit",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Arbeitsgenehmigungsnummer"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A number associated with a permit for a person who is granted permission to work in a country for a specified time period."
+              }
+            ]
+          },
+          {
+            "code": "XV",
+            "display": "Health Plan Identifier",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "National unique health plan identifier required by the US Department of Health and Human Services, Centers for Medicare and Medicaid Services (CMS) in the US Realm."
+              }
+            ]
+          },
+          {
+            "code": "XX",
+            "display": "Organization identifier",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Organisations-ID"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Organization identifier"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2024-01-12T10:34:44Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "AC",
+        "display": "Accreditation/Certification Identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Akkreditierungs-/ Zertifizierungs-Identifikator"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier that has been assigned by an accreditation or certification organization in specific fields, indicating a recognized skill"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "ACSN",
+        "display": "Accession ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Accession Identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "AIN",
+        "display": "Animal Identification Number (US Official)",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A numbering system for the official identification of individual animals in the United States that provides a nationally unique identification number for each animal. The first two numbers on a tag are the numbers assigned to a specific State."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "AM",
+        "display": "American Express",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "American Express"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "American Express"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "AMA",
+        "display": "American Medical Association Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A physician identifier assigned by the AMA."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "AN",
+        "display": "Account number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Kontonummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Account An identifier that is unique to an account."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "ANC",
+        "display": "Account number Creditor",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Kreditor-Kontonummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A more precise definition of an account number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "AND",
+        "display": "Account number debitor",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Debitor-Kontonummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A more precise definition of an account number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "ANON",
+        "display": "Anonymous identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Anonym-Identifikator"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for a living subject whose real identity is protected or suppressed"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "ANT",
+        "display": "Temporary Account Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vor\u00fcbergehende Kontonummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Temporary version of an Account Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "APRN",
+        "display": "Advanced Practice Registered Nurse number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to an advanced practice registered nurse within the jurisdiction of a certifying board"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "ASID",
+        "display": "Ancestor Specimen ID",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Prim\u00e4rprobennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A unique identifier for the ancestor specimen."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BA",
+        "display": "Bank Account Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Bankkonto-Nummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Bank Account Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BC",
+        "display": "Bank Card Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Bankkarten-Nummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a person's bank card"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BCFN",
+        "display": "Birth Certificate File Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The identifier used within the jurisdictional vital records office file system as an auxiliary means of accessing the record associated with the birth certificate."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BCT",
+        "display": "Birth Certificate",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Geburtsurkunden-Zahl"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a document identifying the event of a person's birth"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BR",
+        "display": "Birth registry number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Geburtsregisternummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier unique within the Assigning Authority that is the official legal record of a person's birth."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BRN",
+        "display": "Breed Registry Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Zuchtbuchnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Breed Registry Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "BSNR",
+        "display": "Primary physician office number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Primary physician office number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "CAAI",
+        "display": "Consumer Application Account Identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Kundenkonto-Identifikator"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for the consumer (e.g., patient, caregiver) for an application such as a portal or App."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "CC",
+        "display": "Cost Center number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Kostenstellennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Cost Center number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "CONM",
+        "display": "Change of Name Document",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a document identifying a person's legal change of name."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "CY",
+        "display": "County number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Katastralgemeindenummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "County number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "CZ",
+        "display": "Citizenship Card",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number assigned by a person's country of residence to identify a person's citizenship."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DC",
+        "display": "Death Certificate ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The identifier assigned to a death certificate, and printed on the death certificate when issued by a jurisdictional vital records office"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DCFN",
+        "display": "Death Certificate File Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Sterbeurkunden-Zahl"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The identifier used within the jurisdictional vital records office file system as an auxiliary means of accessing the record associated with the death certificate."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DDS",
+        "display": "Dentist license number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Zahnarztnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a dentist within the jurisdiction of the licensing board"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DEA",
+        "display": "Drug Enforcement Administration registration number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for an individual or organization relative to controlled substance regulation and transactions."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DFN",
+        "display": "Drug Furnishing or prescriptive authority Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier issued to a health care provider authorizing the person to write drug orders"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DI",
+        "display": "Diner's Club card",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Diners Club"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Diner's Club card"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DL",
+        "display": "Driver's license number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "F\u00fchrerscheinnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Driver's license number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DN",
+        "display": "Doctor number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Arztnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Doctor number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DO",
+        "display": "Osteopathic License number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to an osteopath within the jurisdiction of a licensing board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DP",
+        "display": "Diplomatic Passport",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Diplomatenpass"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number assigned to a diplomatic passport."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DPM",
+        "display": "Podiatrist license number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a podiatrist within the jurisdiction of the licensing board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DR",
+        "display": "Donor Registration Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Spendernummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Donor Registration Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DS",
+        "display": "Discover Card",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Discover Card"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "DSG",
+        "display": "Diagnostic Study Group",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Diagnostische Studiengruppennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Unique Identifier that groups several orders that are to be performed together."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "EI",
+        "display": "Employee number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Arbeitnehmernummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number that uniquely identifies an employee to an employer."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "EN",
+        "display": "Employer number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Arbeitgebernummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Employer number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "ESN",
+        "display": "Staff Enterprise Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Personalunternehmensnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a staff member within an enterprise (as identified by the Assigning Authority)."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "FDR",
+        "display": "Fetal Death Report ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The identifier assigned to a fetal death report, and printed on the fetal death report when issued by a jurisdictional vital records office"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "FDRFN",
+        "display": "Fetal Death Report File Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Aktenzeichen der Totgeburt"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The identifier used within the jurisdictional vital records office file system as an auxiliary means of accessing the record associated with the fetal death report certificate."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "FGN",
+        "display": "Filler Group Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Leistungsstellengruppennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Unique identifier assigned to a group of orders by the filler application."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "FI",
+        "display": "Facility ID",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Einrichtungsnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Facility ID"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "FILL",
+        "display": "Filler Identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Leistungsstellennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for a request where the identifier is issued by the person, or service, that produces the observations or fulfills the request."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "GI",
+        "display": "Guarantor internal identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "interne ID des Zahlungspflichtigen"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Guarantor internal identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "GIN",
+        "display": "Animal Group Identifier (US Official)",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier that can be used to unambiguously describe a specific group of animals."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "GL",
+        "display": "General ledger number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Hauptbuchnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "General ledger number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "GN",
+        "display": "Guarantor external identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "externe ID des Zahlungspflichtigen"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Guarantor external identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "HC",
+        "display": "Health Card Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Health Card Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "IND",
+        "display": "Indigenous/Aboriginal",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number assigned to a member of an indigenous or aboriginal group outside of Canada."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "JHN",
+        "display": "Jurisdictional health number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Jurisdictional health number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "LACSN",
+        "display": "Laboratory Accession ID",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Labor-Eingangsnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A laboratory accession id is used in the laboratory domain."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "LANR",
+        "display": "Lifelong physician number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Lifelong physician number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "LI",
+        "display": "Labor and industries number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Labor and industries number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "L&I",
+        "display": "Labor and industries number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Labor and industries number. Note that this was introduced erroneously (with an ampersand in the code value) many years ago."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "LN",
+        "display": "License number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Lizenznummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "License number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "LR",
+        "display": "Local Registry ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Local Registry ID"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MA",
+        "display": "Patient Medicaid number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Patient Medicaid number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MB",
+        "display": "Member Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for the insured of an insurance policy (this insured always has a subscriber), usually assigned by the insurance carrier."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MC",
+        "display": "Patient's Medicare number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Patient's Medicare number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MCD",
+        "display": "Practitioner Medicaid number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Practitioner Medicaid number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MCN",
+        "display": "Microchip Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Mikrochipnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Microchip Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MCR",
+        "display": "Practitioner Medicare number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Practitioner Medicare number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MCT",
+        "display": "Marriage Certificate",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Heiratsurkunden-Zahl"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a document identifying the event of a person's marriage."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MD",
+        "display": "Medical License number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a medical doctor within the jurisdiction of a licensing board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MI",
+        "display": "Military ID number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Personenkennziffer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number assigned to an individual who has had military duty, but is not currently on active duty. The number is assigned by the DOD or Veterans' Affairs (VA)."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MR",
+        "display": "Medical record number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Krankenaktennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a patient within a set of medical records, not necessarily unique within an application."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MRT",
+        "display": "Temporary Medical Record Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Temporary version of a Medical Record Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "MS",
+        "display": "MasterCard",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "MasterCard"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "MasterCard"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NBSNR",
+        "display": "Secondary physician office number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Secondary physician office number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NCT",
+        "display": "Naturalization Certificate",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a document identifying a person's retention of citizenship in a particular country."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NE",
+        "display": "National employer identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National employer identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NH",
+        "display": "National Health Plan Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National Health Plan Identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NI",
+        "display": "National unique individual identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Nationaler eindeutiger Personenidentifikator"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National unique individual identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NII",
+        "display": "National Insurance Organization Identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Institutskennzeichen der Krankenkasse"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National Insurance Organization Identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NIIP",
+        "display": "National Insurance Payor Identifier (Payor)",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vertragskassennummer (VKNR)"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National Insurance Payor Identifier (Payor)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NNxxx",
+        "display": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NP",
+        "display": "Nurse practitioner number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a nurse practitioner within the jurisdiction of a certifying board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "NPI",
+        "display": "National provider identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vertragspartnernummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National provider identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "OBI",
+        "display": "Observation Instance Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Unique and persistent identifier for an observation instance"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "OD",
+        "display": "Optometrist license number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number that is unique to an individual optometrist within the jurisdiction of the licensing board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PA",
+        "display": "Physician Assistant number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Assistenzarztnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a physician assistant within the jurisdiction of a licensing board"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PC",
+        "display": "Parole Card",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number identifying a person on parole."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PCN",
+        "display": "Penitentiary/correctional institution Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number assigned to individual who is incarcerated."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PE",
+        "display": "Living Subject Enterprise Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a living subject within an enterprise (as identified by the Assigning Authority)."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PEN",
+        "display": "Pension Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Pensionsnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Pension Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PGN",
+        "display": "Placer Group Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Auftragsgruppennummer des Anforderers"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Unique identifier assigned to a group of orders by the placer application."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PHC",
+        "display": "Public Health Case Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier assigned to a person during a case investigation as part of a public health event"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PHE",
+        "display": "Public Health Event Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier assigned to an event of interest to public health"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PHO",
+        "display": "Public Health Official ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for a person working at a public health agency (PHA), assigned or issued by the agency"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PI",
+        "display": "Patient internal identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "interne Patienten-ID"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number that is unique to a patient within an Assigning Authority."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PIN",
+        "display": "Premises Identifier Number (US Official)",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier that uniquely identifies a geographic location in the US."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PLAC",
+        "display": "Placer Identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "ID der anfordernden Stelle"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for a request where the identifier is issued by the person or service making the request."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PN",
+        "display": "Person number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Personen-ID"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number that is unique to a living subject within an Assigning Authority."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PNT",
+        "display": "Temporary Living Subject Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Temporary version of a Living Subject Number."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PPIN",
+        "display": "Medicare/CMS Performing Provider Identification Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Medicare/CMS Performing Provider Identification Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PPN",
+        "display": "Passport number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Passnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A unique number assigned to the document affirming that a person is a citizen of the country."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PRC",
+        "display": "Permanent Resident Card Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Permanent Resident Card Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PRN",
+        "display": "Provider number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number that is unique to an individual provider, a provider group or an organization within an Assigning Authority."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "PT",
+        "display": "Patient external identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "externe Patienten-ID"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Patient external identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "QA",
+        "display": "QA number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "QA number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "RI",
+        "display": "Resource identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ressourcen-ID"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A generalized resource identifier."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "RN",
+        "display": "Registered Nurse Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Eintragungsnummer Gesundheitsberuferegister"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a registered nurse within the jurisdiction of the licensing board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "RPH",
+        "display": "Pharmacist license number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Apotheker-Nummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier that is unique to a pharmacist within the jurisdiction of the licensing board."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "RR",
+        "display": "Railroad Retirement number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Seniorenkartennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for an individual enrolled with the Railroad Retirement Administration. Analogous to, but distinct from, a Social Security Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "RRI",
+        "display": "Regional registry ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Regional registry ID"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "RRP",
+        "display": "Railroad Retirement Provider",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Railroad Retirement Provider"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SAMN",
+        "display": "SAMN# accession Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The accession number for the BioSample data repository at the National Center for Biotechnology Information (NCBI)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SB",
+        "display": "Social Beneficiary Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier issued by a governmental organization to a person to identify the person should they apply for or receive social services and/or benefits"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SID",
+        "display": "Specimen ID",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Probennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier for a specimen."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SL",
+        "display": "State license",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "State license"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SN",
+        "display": "Subscriber Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Teilnehmernummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for a subscriber of an insurance policy which is unique for, and usually assigned by, the insurance carrier."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SNBSN",
+        "display": "State assigned NDBS card Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The identifier on a Newborn Screening Dried Bloodspot (NDBS) card that is assigned by the state which provided the sample collection cards and to whom this information must be reported"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SNO",
+        "display": "Serial Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Seriennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier affixed to an item by the manufacturer when it is first made, where each item has a different identifier."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SP",
+        "display": "Study Permit",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a permit identifying a person who is a resident of a jurisdiction for the purpose of education."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SR",
+        "display": "State registry ID",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "State registry ID"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SRX",
+        "display": "SRA Accession number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The accession number generated by the Sequence Read Archive (SRA) at the National Center for Biotechnology Information (NCBI) when sequence data are uploaded to NCBI."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "SS",
+        "display": "Social Security number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Sozialversicherungsnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Social Security number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "STN",
+        "display": "Shipment Tracking Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Sendungsnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Identifier assigned to a package being shipped"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "TAX",
+        "display": "Tax ID number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Steuernummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Tax ID number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "TN",
+        "display": "Treaty Number/ (Canada)",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number assigned to a member of an indigenous group in Canada."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "TPR",
+        "display": "Temporary Permanent Resident (Canada)",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a document identifying a person's temporary permanent resident status."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "TRL",
+        "display": "Training License Number",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The license number used during training."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "U",
+        "display": "Unspecified identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Nicht spezifizierte Kennung"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Unspecified identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "UDI",
+        "display": "Universal Device Identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Einmalige Produktkennung"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier assigned to a device using the Unique Device Identification framework as defined by IMDRF (http://imdrf.org)."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "UPIN",
+        "display": "Medicare/CMS (formerly HCFA)'s Universal Physician Identification numbers",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An identifier for a provider within the CMS/Medicare program. A globally unique identifier for the provider in the Medicare program."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "USID",
+        "display": "Unique Specimen ID",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Eindeutige Probennummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A unique identifier for a specimen."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "VN",
+        "display": "Visit number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Fallnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Visit number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "VP",
+        "display": "Visitor Permit",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Besucherkennung"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a document identifying a person as a visitor of a jurisdiction or country."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "VS",
+        "display": "VISA",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "VISA"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "VISA"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "WC",
+        "display": "WIC identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "WIC identifier"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "WCN",
+        "display": "Workers' Comp Number",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Arbeitsunfallnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Workers' Comp Number"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "WP",
+        "display": "Work Permit",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Arbeitsgenehmigungsnummer"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A number associated with a permit for a person who is granted permission to work in a country for a specified time period."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "XV",
+        "display": "Health Plan Identifier",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "National unique health plan identifier required by the US Department of Health and Human Services, Centers for Medicare and Medicaid Services (CMS) in the US Realm."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "version": "4.0.0",
+        "code": "XX",
+        "display": "Organization identifier",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Organisations-ID"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem-austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Organization identifier"
+          }
+        ]
+      }
+    ]
+  }
+}
