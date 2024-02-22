@@ -1,0 +1,1165 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-humanactsite",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-humanactsite",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.52"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-humanactsite",
+  "title": "ELGA_HumanActSite",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** An anatomical location on a human which can be the focus of an act.\n\n**Beschreibung:** Eine anatomische Lokalisation an einem Menschen, auf die ein Act Bezug nehmen kann.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "BE",
+            "display": "bilateral ears",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ohren beidseits"
+              }
+            ]
+          },
+          {
+            "code": "BN",
+            "display": "bilateral nares",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Nasennebenh\u00f6hlen beidseits"
+              }
+            ]
+          },
+          {
+            "code": "BU",
+            "display": "buttock",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ges\u00e4\u00df"
+              }
+            ]
+          },
+          {
+            "code": "LA",
+            "display": "left arm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Arm"
+              }
+            ]
+          },
+          {
+            "code": "LAC",
+            "display": "left anterior chest",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Brustkorb anterior"
+              }
+            ]
+          },
+          {
+            "code": "LACF",
+            "display": "left antecubital fossa",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Linke Ellenbeuge"
+              }
+            ]
+          },
+          {
+            "code": "LD",
+            "display": "left deltoid",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Deltoideus"
+              }
+            ]
+          },
+          {
+            "code": "LE",
+            "display": "left ear",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linkes Ohr"
+              }
+            ]
+          },
+          {
+            "code": "LEJ",
+            "display": "left external jugular",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vena jugularis externa, links"
+              }
+            ]
+          },
+          {
+            "code": "LF",
+            "display": "left foot",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Fu\u00df"
+              }
+            ]
+          },
+          {
+            "code": "LG",
+            "display": "left gluteus medius",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker mittlerer Ges\u00e4\u00dfmuskel"
+              }
+            ]
+          },
+          {
+            "code": "LH",
+            "display": "left hand",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linke Hand"
+              }
+            ]
+          },
+          {
+            "code": "LIJ",
+            "display": "left internal jugular",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vena jugularis interna links"
+              }
+            ]
+          },
+          {
+            "code": "LLAQ",
+            "display": "left lower abd quadrant",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Abdomen, linker unterer Quadrant"
+              }
+            ]
+          },
+          {
+            "code": "LLFA",
+            "display": "left lower forearm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker unterer Unterarm"
+              }
+            ]
+          },
+          {
+            "code": "LMFA",
+            "display": "left mid forearm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker mittlerer Unterarm"
+              }
+            ]
+          },
+          {
+            "code": "LN",
+            "display": "left naris",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linkes Nasenloch"
+              }
+            ]
+          },
+          {
+            "code": "LPC",
+            "display": "left posterior chest",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Brustkorb posterior"
+              }
+            ]
+          },
+          {
+            "code": "LSC",
+            "display": "left subclavian",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linke Subklavia"
+              }
+            ]
+          },
+          {
+            "code": "LT",
+            "display": "left thigh",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Oberschenkel"
+              }
+            ]
+          },
+          {
+            "code": "LUA",
+            "display": "left upper arm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Oberarm"
+              }
+            ]
+          },
+          {
+            "code": "LUAQ",
+            "display": "left upper abd quadrant",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Abdomen, linker oberer Quadrant"
+              }
+            ]
+          },
+          {
+            "code": "LUFA",
+            "display": "left upper forearm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker oberer Oberarm"
+              }
+            ]
+          },
+          {
+            "code": "LVG",
+            "display": "left ventragluteal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "ventraglut\u00e4al links"
+              }
+            ]
+          },
+          {
+            "code": "LVL",
+            "display": "left vastus lateralis",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linker Vastus lateralis"
+              }
+            ]
+          },
+          {
+            "code": "OD",
+            "display": "right eye",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechtes Auge"
+              }
+            ]
+          },
+          {
+            "code": "OS",
+            "display": "left eye",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "linkes Auge"
+              }
+            ]
+          },
+          {
+            "code": "OU",
+            "display": "bilateral eyes",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Augen, beidseits"
+              }
+            ]
+          },
+          {
+            "code": "PA",
+            "display": "perianal"
+          },
+          {
+            "code": "PERIN",
+            "display": "perineal"
+          },
+          {
+            "code": "RA",
+            "display": "right arm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Arm"
+              }
+            ]
+          },
+          {
+            "code": "RAC",
+            "display": "right anterior chest",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Brustkorb anterior"
+              }
+            ]
+          },
+          {
+            "code": "RACF",
+            "display": "right antecubital fossa",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechte Ellenbeuge"
+              }
+            ]
+          },
+          {
+            "code": "RD",
+            "display": "right deltoid",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Deltoideus"
+              }
+            ]
+          },
+          {
+            "code": "RE",
+            "display": "right ear",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechtes Auge"
+              }
+            ]
+          },
+          {
+            "code": "REJ",
+            "display": "right external jugular",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vena jugularis externa, rechts"
+              }
+            ]
+          },
+          {
+            "code": "RF",
+            "display": "right foot",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Fu\u00df"
+              }
+            ]
+          },
+          {
+            "code": "RG",
+            "display": "right gluteus medius",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter mittlerer Ges\u00e4\u00dfmuskel"
+              }
+            ]
+          },
+          {
+            "code": "RH",
+            "display": "right hand",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechte Hand"
+              }
+            ]
+          },
+          {
+            "code": "RIJ",
+            "display": "right internal jugular",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Vena jugularis interna rechts"
+              }
+            ]
+          },
+          {
+            "code": "RLAQ",
+            "display": "right lower abd quadrant",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Abdomen, rechter unterer Quadrant"
+              }
+            ]
+          },
+          {
+            "code": "RLFA",
+            "display": "right lower forearm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter unterer Unterarm"
+              }
+            ]
+          },
+          {
+            "code": "RMFA",
+            "display": "right mid forearm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter mittlerer Unterarm"
+              }
+            ]
+          },
+          {
+            "code": "RN",
+            "display": "right naris",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechtes Nasenloch"
+              }
+            ]
+          },
+          {
+            "code": "RPC",
+            "display": "right posterior chest",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Brustkorb posterior"
+              }
+            ]
+          },
+          {
+            "code": "RSC",
+            "display": "right subclavian",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechte Subklavia"
+              }
+            ]
+          },
+          {
+            "code": "RT",
+            "display": "right thigh",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Oberschenkel"
+              }
+            ]
+          },
+          {
+            "code": "RUA",
+            "display": "right upper arm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Oberarm"
+              }
+            ]
+          },
+          {
+            "code": "RUAQ",
+            "display": "right upper abd quadrant",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Abdomen, rechter oberer Quadrant"
+              }
+            ]
+          },
+          {
+            "code": "RUFA",
+            "display": "right upper forearm",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter oberer Oberarm"
+              }
+            ]
+          },
+          {
+            "code": "RVG",
+            "display": "right ventragluteal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "ventraglut\u00e4al rechts"
+              }
+            ]
+          },
+          {
+            "code": "RVL",
+            "display": "right vastus lateralis",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "rechter Vastus lateralis"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:52:13Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "BE",
+        "display": "bilateral ears",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ohren beidseits"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "BN",
+        "display": "bilateral nares",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Nasennebenh\u00f6hlen beidseits"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "BU",
+        "display": "buttock",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ges\u00e4\u00df"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LA",
+        "display": "left arm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Arm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LAC",
+        "display": "left anterior chest",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Brustkorb anterior"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LACF",
+        "display": "left antecubital fossa",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Linke Ellenbeuge"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LD",
+        "display": "left deltoid",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Deltoideus"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LE",
+        "display": "left ear",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linkes Ohr"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LEJ",
+        "display": "left external jugular",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vena jugularis externa, links"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LF",
+        "display": "left foot",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Fu\u00df"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LG",
+        "display": "left gluteus medius",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker mittlerer Ges\u00e4\u00dfmuskel"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LH",
+        "display": "left hand",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linke Hand"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LIJ",
+        "display": "left internal jugular",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vena jugularis interna links"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LLAQ",
+        "display": "left lower abd quadrant",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Abdomen, linker unterer Quadrant"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LLFA",
+        "display": "left lower forearm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker unterer Unterarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LMFA",
+        "display": "left mid forearm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker mittlerer Unterarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LN",
+        "display": "left naris",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linkes Nasenloch"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LPC",
+        "display": "left posterior chest",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Brustkorb posterior"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LSC",
+        "display": "left subclavian",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linke Subklavia"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LT",
+        "display": "left thigh",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Oberschenkel"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LUA",
+        "display": "left upper arm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Oberarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LUAQ",
+        "display": "left upper abd quadrant",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Abdomen, linker oberer Quadrant"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LUFA",
+        "display": "left upper forearm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker oberer Oberarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LVG",
+        "display": "left ventragluteal",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "ventraglut\u00e4al links"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "LVL",
+        "display": "left vastus lateralis",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linker Vastus lateralis"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "OD",
+        "display": "right eye",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechtes Auge"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "OS",
+        "display": "left eye",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "linkes Auge"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "OU",
+        "display": "bilateral eyes",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Augen, beidseits"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "PA",
+        "display": "perianal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "PERIN",
+        "display": "perineal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RA",
+        "display": "right arm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Arm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RAC",
+        "display": "right anterior chest",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Brustkorb anterior"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RACF",
+        "display": "right antecubital fossa",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechte Ellenbeuge"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RD",
+        "display": "right deltoid",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Deltoideus"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RE",
+        "display": "right ear",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechtes Auge"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "REJ",
+        "display": "right external jugular",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vena jugularis externa, rechts"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RF",
+        "display": "right foot",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Fu\u00df"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RG",
+        "display": "right gluteus medius",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter mittlerer Ges\u00e4\u00dfmuskel"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RH",
+        "display": "right hand",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechte Hand"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RIJ",
+        "display": "right internal jugular",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Vena jugularis interna rechts"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RLAQ",
+        "display": "right lower abd quadrant",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Abdomen, rechter unterer Quadrant"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RLFA",
+        "display": "right lower forearm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter unterer Unterarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RMFA",
+        "display": "right mid forearm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter mittlerer Unterarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RN",
+        "display": "right naris",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechtes Nasenloch"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RPC",
+        "display": "right posterior chest",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Brustkorb posterior"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RSC",
+        "display": "right subclavian",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechte Subklavia"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RT",
+        "display": "right thigh",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Oberschenkel"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RUA",
+        "display": "right upper arm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Oberarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RUAQ",
+        "display": "right upper abd quadrant",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Abdomen, rechter oberer Quadrant"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RUFA",
+        "display": "right upper forearm",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter oberer Oberarm"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RVG",
+        "display": "right ventragluteal",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "ventraglut\u00e4al rechts"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+        "version": "2.1.0",
+        "code": "RVL",
+        "display": "right vastus lateralis",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "rechter Vastus lateralis"
+          }
+        ]
+      }
+    ]
+  }
+}

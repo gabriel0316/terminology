@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="elga-lebensmittelallergene-mapping"/>
+  <url value="https://termgit.elga.gv.at/ConceptMap/elga-lebensmittelallergene-mapping"/>
+  <version value="1.0.0+20221102"/>
+  <name value="elga-lebensmittelallergene-mapping"/>
+  <title value="ELGA Lebensmittelallergene Mapping"/>
+  <status value="active"/>
+  <date value="2022-11-02"/>
+  <publisher value="ELGA GmbH"/>
+  <description value="Diese ConceptMap stellt ein Mapping von den Allergien aus SNOMED CT auf die Lebensmittelallergene gemäß EU Verordnung (https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02011R1169-20180101&amp;from=DE#E0017) dar."/>
+  <sourceUri value="https://termgit.elga.gv.at/ValueSet/elga-allergyorintoleranceagent"/>
+  <targetUri value="https://termgit.elga.gv.at/ValueSet/elga-lebensmittelallergene"/>
+  <group>
+    <source value="https://termgit.elga.gv.at/CodeSystem/snomed-ct-auszug"/>
+    <target value="https://termgit.elga.gv.at/CodeSystem/elga-lebensmittelallergene"/>
+    <element>
+      <code value="105590001"/>
+      <display value="Substanzen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="52454007"/>
+      <display value="Albumin"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="12503006"/>
+      <display value="Aluminium"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256447001"/>
+      <display value="Amalgam"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256303006"/>
+      <display value="Ambrosia-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="228103005"/>
+      <display value="Antioxidantien in Lebensmitteln"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735215001"/>
+      <display value="Apfel"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735214002"/>
+      <display value="Aprikosen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="11526002"/>
+      <display value="Aspartam"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="736031006"/>
+      <display value="Austern"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256307007"/>
+      <display value="Bananen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256260009"/>
+      <display value="Baum- und Strauchpollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256305004"/>
+      <display value="Baumharze"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="89889006"/>
+      <display value="Baumwollfasern"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256293000"/>
+      <display value="Beifuß-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="288328004"/>
+      <display value="Bienengifte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="53410008"/>
+      <display value="Bier"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="255640000"/>
+      <display value="Biozid (Desinfektionsmittel, Rattengifte, Holzschutzmittel)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256262001"/>
+      <display value="Birken-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412061001"/>
+      <display value="Blaubeeren"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256292005"/>
+      <display value="Blumen- und Kräuterpollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256354006"/>
+      <display value="Bohnen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="11894001"/>
+      <display value="Botulinumtoxin (BTX)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="21587009"/>
+      <display value="Brennnesseln"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="9021002"/>
+      <display value="Carbaryl-Insektizid"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227493005"/>
+      <display value="Cashew-Kerne"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="119417004"/>
+      <display value="Chlorkohlenwasserstoff-Insektizide"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="116549003"/>
+      <display value="Chlorkohlenwasserstoff-Pestizide"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="111070004"/>
+      <display value="Chrom"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="59351004"/>
+      <display value="Citrate"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227395004"/>
+      <display value="Curry (Gewürz)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="387293003"/>
+      <display value="Dithranol"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="102263004"/>
+      <display value="Eier (verzehrbar)"/>
+      <target>
+        <code value="EU0003"/>
+        <display value="Eier"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256443002"/>
+      <display value="Eiklar"/>
+      <target>
+        <code value="EU0003"/>
+        <display value="Eier"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="303300008"/>
+      <display value="Eiproteine (Ovomukoid, Ovalbumin)"/>
+      <target>
+        <code value="EU0003"/>
+        <display value="Eier"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="65345002"/>
+      <display value="Epoxidharze"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="102261002"/>
+      <display value="Erdbeeren"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="762952008"/>
+      <display value="Erdnüsse"/>
+      <target>
+        <code value="EU0005"/>
+        <display value="Erdnüsse"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256261008"/>
+      <display value="Erlen-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="12510000"/>
+      <display value="Eukalyptusöle"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="61789006"/>
+      <display value="Farbstoffe"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256435007"/>
+      <display value="Federn"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227425007"/>
+      <display value="Feigen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="472731004"/>
+      <display value="Feigen-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735971005"/>
+      <display value="Fische"/>
+      <target>
+        <code value="EU0004"/>
+        <display value="Fische"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="28647000"/>
+      <display value="Fleisch"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735972003"/>
+      <display value="Flusskrebse"/>
+      <target>
+        <code value="EU0002"/>
+        <display value="Krebstiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="111095003"/>
+      <display value="Formaldehyd"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="72511004"/>
+      <display value="Früchte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="58202007"/>
+      <display value="Fruktose"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="43392006"/>
+      <display value="Gänsefüße"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="278840001"/>
+      <display value="Garnelen"/>
+      <target>
+        <code value="EU0002"/>
+        <display value="Krebstiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="28230009"/>
+      <display value="Geflügel"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="418266005"/>
+      <display value="gelbe Vaseline"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="80259003"/>
+      <display value="Geschmacksverstärker in Lebensmitteln"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="23182003"/>
+      <display value="Getreide"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260118006"/>
+      <display value="Glaskraut-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="430503006"/>
+      <display value="Glutamat"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="89811004"/>
+      <display value="Gluten"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="2309006"/>
+      <display value="Gold"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="422304003"/>
+      <display value="Gräser (Süßgräser)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256277009"/>
+      <display value="Gras-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412145001"/>
+      <display value="Haarfärbemittel"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="418504009"/>
+      <display value="Hafer"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256353000"/>
+      <display value="Haselnüsse"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256263006"/>
+      <display value="Hasel-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="128488006"/>
+      <display value="Hausstaub"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="406466009"/>
+      <display value="Hausstaub-Allergene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="711093001"/>
+      <display value="Hausstaubmilben-Proteine"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="711322006"/>
+      <display value="Helminthen (Eingeweidewürmer)-Protein"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227444000"/>
+      <display value="Himbeeren"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="14402002"/>
+      <display value="Holz"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227313005"/>
+      <display value="Hülsenfrüchte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="736162008"/>
+      <display value="Hummer"/>
+      <target>
+        <code value="EU0002"/>
+        <display value="Krebstiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260154005"/>
+      <display value="Hunde-Hautschuppen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227400003"/>
+      <display value="Ingwer"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="406470001"/>
+      <display value="Insekten-Allergene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="280939008"/>
+      <display value="Insektengifte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="260174003"/>
+      <display value="Kabeljaue"/>
+      <target>
+        <code value="EU0004"/>
+        <display value="Fische"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="80237000"/>
+      <display value="Kakaobutter"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="14241002"/>
+      <display value="Kakerlaken"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="74774004"/>
+      <display value="Kälteurtikaria"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="88818001"/>
+      <display value="Kaninchen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412153009"/>
+      <display value="Kaninchen-Hautschuppen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256319004"/>
+      <display value="Karotten"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735053000"/>
+      <display value="Kartoffeln"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="102264005"/>
+      <display value="Käse"/>
+      <target>
+        <code value="EU0007"/>
+        <display value="Milch"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260152009"/>
+      <display value="Katze-Hautschuppen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="43230003"/>
+      <display value="Kautschuk"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735248001"/>
+      <display value="Kirschen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="260176001"/>
+      <display value="Kiwi"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="57126000"/>
+      <display value="Klebstoff"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="418920007"/>
+      <display value="Klebstoffe"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735030001"/>
+      <display value="Knoblauch"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="54808007"/>
+      <display value="Kobalt"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735211005"/>
+      <display value="Kokusnüsse"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="255840003"/>
+      <display value="Kolophonium"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="51386004"/>
+      <display value="Konservierungsmittel in Lebensmitteln"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="406473004"/>
+      <display value="Kontakt-Allergene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="264331002"/>
+      <display value="Körner (Getreide, Pseudogetreide, Hülsenfrüchte, Sonnenblumen)"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="289122001"/>
+      <display value="Kosmetika"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="736159005"/>
+      <display value="Krabben"/>
+      <target>
+        <code value="EU0002"/>
+        <display value="Krebstiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="227374009"/>
+      <display value="Kräuter und Gewürze"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="421133009"/>
+      <display value="Krustentiere"/>
+      <target>
+        <code value="EU0002"/>
+        <display value="Krebstiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="264295007"/>
+      <display value="Kuhmilch-Proteine"/>
+      <target>
+        <code value="EU0007"/>
+        <display value="Milch"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="66925006"/>
+      <display value="Kupfer"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="47703008"/>
+      <display value="Laktose"/>
+      <target>
+        <code value="EU0007"/>
+        <display value="Milch"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="772245002"/>
+      <display value="Lanolin-Alkohol"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="111088007"/>
+      <display value="Latex"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="406465008"/>
+      <display value="Lebensmittel-Allergene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="59533004"/>
+      <display value="Lebensmittel-Zusatzstoffe"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="19627002"/>
+      <display value="Leder"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="115664001"/>
+      <display value="Photoallergische Dermatitis"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227430006"/>
+      <display value="Limetten"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="63876004"/>
+      <display value="Lupinen"/>
+      <target>
+        <code value="EU0013"/>
+        <display value="Lupinen"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="412357001"/>
+      <display value="Mais"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="391737006"/>
+      <display value="Mandelöle"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260179008"/>
+      <display value="Mango"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256419000"/>
+      <display value="Maus-Epithelien"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="260156007"/>
+      <display value="Maus-Urin-Proteine"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="44027008"/>
+      <display value="Meeresfrüchte"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="63766005"/>
+      <display value="Mehl"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260177005"/>
+      <display value="Melonen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="261243003"/>
+      <display value="Messing"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="2799001"/>
+      <display value="Methylbenzethoniumchlorid"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="70813002"/>
+      <display value="Milch"/>
+      <target>
+        <code value="EU0007"/>
+        <display value="Milch"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="255667006"/>
+      <display value="Mineralöle (Paraffinöl, Petroleum, ?)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="226760005"/>
+      <display value="Molkereiprodukte"/>
+      <target>
+        <code value="EU0007"/>
+        <display value="Milch"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="115589000"/>
+      <display value="Monoethanolamin"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="736030007"/>
+      <display value="Muscheln (Venusmuschel, ?)"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="77188000"/>
+      <display value="Muscheln (Miesmuschel, ...)"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="735046009"/>
+      <display value="Muskatnüsse"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="412160003"/>
+      <display value="Nahtmaterial-Allergene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227389000"/>
+      <display value="Nelken"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="33396006"/>
+      <display value="Nickel"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="13577000"/>
+      <display value="Nüsse"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="230034002"/>
+      <display value="Nüsse und Ölsamen (Ölsaat)"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="735979007"/>
+      <display value="Oktopusse"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260126003"/>
+      <display value="Oliven-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="406774009"/>
+      <display value="Omega-3-Fettsäuren aus Fisch"/>
+      <target>
+        <code value="EU0004"/>
+        <display value="Fische"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256306003"/>
+      <display value="Orangen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="712720004"/>
+      <display value="Pappel-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227408005"/>
+      <display value="Paprika"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="734881000"/>
+      <display value="Paradeiser"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="418785009"/>
+      <display value="Parfum"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="410853002"/>
+      <display value="Perfluor Chemikalien"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="255842006"/>
+      <display value="Perubalsam"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="59545008"/>
+      <display value="Pestizide"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412066006"/>
+      <display value="Pfeffer"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256417003"/>
+      <display value="Pferde-Hautschuppen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735049002"/>
+      <display value="Pfirsich"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="116637007"/>
+      <display value="Pilz-Antigene (Einzellige Pilze)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735045008"/>
+      <display value="Pilze (Speise- und Giftpilze)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227511008"/>
+      <display value="Pinienkerne"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227512001"/>
+      <display value="Pistazien"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="387398009"/>
+      <display value="Podophyllum Harze"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256259004"/>
+      <display value="Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256504004"/>
+      <display value="Polykarbonat (Zahnärztlicher Werkstoff)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="83619009"/>
+      <display value="Polyvinylalkohol"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="255970007"/>
+      <display value="Propolis"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="311846002"/>
+      <display value="Pyrethroid-Insektizide"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="45262002"/>
+      <display value="Quecksilber"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="67324005"/>
+      <display value="Reis"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="260153004"/>
+      <display value="Rinder-Hautschuppen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412068007"/>
+      <display value="Roggen"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="226915003"/>
+      <display value="rotes Fleisch"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="264337003"/>
+      <display value="Samen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="128489003"/>
+      <display value="Sand"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="726764009"/>
+      <display value="Saubohnen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735029006"/>
+      <display value="Schalentiere"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="722071008"/>
+      <display value="Schimmelpilz-Antigene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="15838006"/>
+      <display value="Schnecken"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="102262009"/>
+      <display value="Schokolade"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="226934003"/>
+      <display value="Schweinefleisch"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412156001"/>
+      <display value="Seide"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="14423008"/>
+      <display value="Selbstklebende Bandagen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256326004"/>
+      <display value="Sellerie"/>
+      <target>
+        <code value="EU0009"/>
+        <display value="Sellerie"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="51905005"/>
+      <display value="Senf"/>
+      <target>
+        <code value="EU0010"/>
+        <display value="Senf"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="260167008"/>
+      <display value="Sesam-Samen"/>
+      <target>
+        <code value="EU0011"/>
+        <display value="Sesamsamen"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="41967008"/>
+      <display value="Silber"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="13652007"/>
+      <display value="Silikon"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="303314008"/>
+      <display value="Skorpiongifte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256355007"/>
+      <display value="Sojabohnen"/>
+      <target>
+        <code value="EU0006"/>
+        <display value="Sojabohnen"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="7791007"/>
+      <display value="Sojaproteine"/>
+      <target>
+        <code value="EU0006"/>
+        <display value="Sojabohnen"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="734846002"/>
+      <display value="Sperma"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="303315009"/>
+      <display value="Spinnengifte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227259009"/>
+      <display value="Spitzwegerich"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="33008008"/>
+      <display value="Staub"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="767406000"/>
+      <display value="Sulfite und Sulfitderivate"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="415710007"/>
+      <display value="Terpene"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256245006"/>
+      <display value="Textilien"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227144008"/>
+      <display value="Thunfische"/>
+      <target>
+        <code value="EU0004"/>
+        <display value="Fische"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="406472009"/>
+      <display value="Tierepithelien"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="276310004"/>
+      <display value="Tierhaare"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="264287008"/>
+      <display value="Tier-Hautschuppen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735006003"/>
+      <display value="Kalmare"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="38946001"/>
+      <display value="Tintenfische"/>
+      <target>
+        <code value="EU0014"/>
+        <display value="Weichtiere"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="419604006"/>
+      <display value="Unkräuter-Pollen (Kamille, Chrysanthemen, Löwenzahn, Japanischer Hopfen, Lupine, Margerite, Raps)"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412070003"/>
+      <display value="Vanille"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="256352005"/>
+      <display value="Walnüsse"/>
+      <target>
+        <code value="EU0008"/>
+        <display value="Schalenfrüchte"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="419420009"/>
+      <display value="Wassermelonen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="419633007"/>
+      <display value="weiße Vaseline"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412071004"/>
+      <display value="Weizen"/>
+      <target>
+        <code value="EU0001"/>
+        <display value="Glutenhaltiges Getreide"/>
+        <equivalence value="subsumes"/>
+      </target>
+    </element>
+    <element>
+      <code value="256440004"/>
+      <display value="Wespengifte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="412161004"/>
+      <display value="Wolle"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="42416001"/>
+      <display value="Wollfett"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="59334006"/>
+      <display value="Zement"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="227388008"/>
+      <display value="Zimt"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735340006"/>
+      <display value="Zitronen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="102259006"/>
+      <display value="Zitrusfrüchte"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="735047000"/>
+      <display value="Zwiebeln"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="289949002"/>
+      <display value="Zypressen-Pollen"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

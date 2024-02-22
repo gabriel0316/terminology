@@ -1,0 +1,1787 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hl7-specimen-type",
+  "url": "https://termgit.elga.gv.at/CodeSystem/hl7-specimen-type",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.5.129"
+    }
+  ],
+  "version": "1.0.0+20230131",
+  "name": "hl7-specimen-type",
+  "title": "HL7 Specimen Type",
+  "status": "retired",
+  "date": "2023-06-30",
+  "content": "complete",
+  "count": 126,
+  "property": [
+    {
+      "code": "child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "_SpecimenEntityType",
+      "display": "SpecimenEntityType",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "ABS"
+        },
+        {
+          "code": "child",
+          "valueCode": "AMN"
+        },
+        {
+          "code": "child",
+          "valueCode": "ASP"
+        },
+        {
+          "code": "child",
+          "valueCode": "BBL"
+        },
+        {
+          "code": "child",
+          "valueCode": "BDY"
+        },
+        {
+          "code": "child",
+          "valueCode": "BIFL"
+        },
+        {
+          "code": "child",
+          "valueCode": "BLD"
+        },
+        {
+          "code": "child",
+          "valueCode": "BLDA"
+        },
+        {
+          "code": "child",
+          "valueCode": "BLDC"
+        },
+        {
+          "code": "child",
+          "valueCode": "BLDCO"
+        },
+        {
+          "code": "child",
+          "valueCode": "BLDV"
+        },
+        {
+          "code": "child",
+          "valueCode": "BON"
+        },
+        {
+          "code": "child",
+          "valueCode": "BPH"
+        },
+        {
+          "code": "child",
+          "valueCode": "BPU"
+        },
+        {
+          "code": "child",
+          "valueCode": "BRN"
+        },
+        {
+          "code": "child",
+          "valueCode": "BRO"
+        },
+        {
+          "code": "child",
+          "valueCode": "BRTH"
+        },
+        {
+          "code": "child",
+          "valueCode": "CALC"
+        },
+        {
+          "code": "child",
+          "valueCode": "CDM"
+        },
+        {
+          "code": "child",
+          "valueCode": "CNJT"
+        },
+        {
+          "code": "child",
+          "valueCode": "CNL"
+        },
+        {
+          "code": "child",
+          "valueCode": "COL"
+        },
+        {
+          "code": "child",
+          "valueCode": "CRN"
+        },
+        {
+          "code": "child",
+          "valueCode": "CSF"
+        },
+        {
+          "code": "child",
+          "valueCode": "CTP"
+        },
+        {
+          "code": "child",
+          "valueCode": "CUR"
+        },
+        {
+          "code": "child",
+          "valueCode": "CVM"
+        },
+        {
+          "code": "child",
+          "valueCode": "CVX"
+        },
+        {
+          "code": "child",
+          "valueCode": "CYST"
+        },
+        {
+          "code": "child",
+          "valueCode": "DIAF"
+        },
+        {
+          "code": "child",
+          "valueCode": "DOSE"
+        },
+        {
+          "code": "child",
+          "valueCode": "DRN"
+        },
+        {
+          "code": "child",
+          "valueCode": "DUFL"
+        },
+        {
+          "code": "child",
+          "valueCode": "EAR"
+        },
+        {
+          "code": "child",
+          "valueCode": "EARW"
+        },
+        {
+          "code": "child",
+          "valueCode": "ELT"
+        },
+        {
+          "code": "child",
+          "valueCode": "ENDC"
+        },
+        {
+          "code": "child",
+          "valueCode": "ENDM"
+        },
+        {
+          "code": "child",
+          "valueCode": "EOS"
+        },
+        {
+          "code": "child",
+          "valueCode": "EXG"
+        },
+        {
+          "code": "child",
+          "valueCode": "EYE"
+        },
+        {
+          "code": "child",
+          "valueCode": "FIB"
+        },
+        {
+          "code": "child",
+          "valueCode": "FIST"
+        },
+        {
+          "code": "child",
+          "valueCode": "FLT"
+        },
+        {
+          "code": "child",
+          "valueCode": "FLU"
+        },
+        {
+          "code": "child",
+          "valueCode": "FOOD"
+        },
+        {
+          "code": "child",
+          "valueCode": "GAS"
+        },
+        {
+          "code": "child",
+          "valueCode": "GAST"
+        },
+        {
+          "code": "child",
+          "valueCode": "GEN"
+        },
+        {
+          "code": "child",
+          "valueCode": "GENC"
+        },
+        {
+          "code": "child",
+          "valueCode": "GENF"
+        },
+        {
+          "code": "child",
+          "valueCode": "GENL"
+        },
+        {
+          "code": "child",
+          "valueCode": "GENV"
+        },
+        {
+          "code": "child",
+          "valueCode": "HAR"
+        },
+        {
+          "code": "child",
+          "valueCode": "IHG"
+        },
+        {
+          "code": "child",
+          "valueCode": "ISLT"
+        },
+        {
+          "code": "child",
+          "valueCode": "IT"
+        },
+        {
+          "code": "child",
+          "valueCode": "LAM"
+        },
+        {
+          "code": "child",
+          "valueCode": "LIQ"
+        },
+        {
+          "code": "child",
+          "valueCode": "LN"
+        },
+        {
+          "code": "child",
+          "valueCode": "LNA"
+        },
+        {
+          "code": "child",
+          "valueCode": "LNV"
+        },
+        {
+          "code": "child",
+          "valueCode": "LYM"
+        },
+        {
+          "code": "child",
+          "valueCode": "MAC"
+        },
+        {
+          "code": "child",
+          "valueCode": "MAR"
+        },
+        {
+          "code": "child",
+          "valueCode": "MBLD"
+        },
+        {
+          "code": "child",
+          "valueCode": "MEC"
+        },
+        {
+          "code": "child",
+          "valueCode": "MILK"
+        },
+        {
+          "code": "child",
+          "valueCode": "MLK"
+        },
+        {
+          "code": "child",
+          "valueCode": "NAIL"
+        },
+        {
+          "code": "child",
+          "valueCode": "NOS"
+        },
+        {
+          "code": "child",
+          "valueCode": "PAFL"
+        },
+        {
+          "code": "child",
+          "valueCode": "PAT"
+        },
+        {
+          "code": "child",
+          "valueCode": "PLAS"
+        },
+        {
+          "code": "child",
+          "valueCode": "PLB"
+        },
+        {
+          "code": "child",
+          "valueCode": "PLC"
+        },
+        {
+          "code": "child",
+          "valueCode": "PLR"
+        },
+        {
+          "code": "child",
+          "valueCode": "PMN"
+        },
+        {
+          "code": "child",
+          "valueCode": "PPP"
+        },
+        {
+          "code": "child",
+          "valueCode": "PRP"
+        },
+        {
+          "code": "child",
+          "valueCode": "PRT"
+        },
+        {
+          "code": "child",
+          "valueCode": "PUS"
+        },
+        {
+          "code": "child",
+          "valueCode": "RBC"
+        },
+        {
+          "code": "child",
+          "valueCode": "SAL"
+        },
+        {
+          "code": "child",
+          "valueCode": "SER"
+        },
+        {
+          "code": "child",
+          "valueCode": "SKM"
+        },
+        {
+          "code": "child",
+          "valueCode": "SKN"
+        },
+        {
+          "code": "child",
+          "valueCode": "SMN"
+        },
+        {
+          "code": "child",
+          "valueCode": "SMPLS"
+        },
+        {
+          "code": "child",
+          "valueCode": "SNV"
+        },
+        {
+          "code": "child",
+          "valueCode": "SPRM"
+        },
+        {
+          "code": "child",
+          "valueCode": "SPT"
+        },
+        {
+          "code": "child",
+          "valueCode": "SPTC"
+        },
+        {
+          "code": "child",
+          "valueCode": "SPTT"
+        },
+        {
+          "code": "child",
+          "valueCode": "STL"
+        },
+        {
+          "code": "child",
+          "valueCode": "STON"
+        },
+        {
+          "code": "child",
+          "valueCode": "SWT"
+        },
+        {
+          "code": "child",
+          "valueCode": "TEAR"
+        },
+        {
+          "code": "child",
+          "valueCode": "THRB"
+        },
+        {
+          "code": "child",
+          "valueCode": "THRT"
+        },
+        {
+          "code": "child",
+          "valueCode": "TISG"
+        },
+        {
+          "code": "child",
+          "valueCode": "TISPL"
+        },
+        {
+          "code": "child",
+          "valueCode": "TISS"
+        },
+        {
+          "code": "child",
+          "valueCode": "TISU"
+        },
+        {
+          "code": "child",
+          "valueCode": "TLGI"
+        },
+        {
+          "code": "child",
+          "valueCode": "TLNG"
+        },
+        {
+          "code": "child",
+          "valueCode": "TSMI"
+        },
+        {
+          "code": "child",
+          "valueCode": "TUB"
+        },
+        {
+          "code": "child",
+          "valueCode": "ULC"
+        },
+        {
+          "code": "child",
+          "valueCode": "UMB"
+        },
+        {
+          "code": "child",
+          "valueCode": "UMED"
+        },
+        {
+          "code": "child",
+          "valueCode": "UR"
+        },
+        {
+          "code": "child",
+          "valueCode": "URC"
+        },
+        {
+          "code": "child",
+          "valueCode": "URNS"
+        },
+        {
+          "code": "child",
+          "valueCode": "URT"
+        },
+        {
+          "code": "child",
+          "valueCode": "URTH"
+        },
+        {
+          "code": "child",
+          "valueCode": "USUB"
+        },
+        {
+          "code": "child",
+          "valueCode": "VOM"
+        },
+        {
+          "code": "child",
+          "valueCode": "WAT"
+        },
+        {
+          "code": "child",
+          "valueCode": "WBC"
+        },
+        {
+          "code": "child",
+          "valueCode": "WICK"
+        },
+        {
+          "code": "child",
+          "valueCode": "WND"
+        },
+        {
+          "code": "child",
+          "valueCode": "WNDA"
+        },
+        {
+          "code": "child",
+          "valueCode": "WNDD"
+        },
+        {
+          "code": "child",
+          "valueCode": "WNDE"
+        }
+      ]
+    },
+    {
+      "code": "ABS",
+      "display": "Abcess",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "AMN",
+      "display": "Amniotic fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "ASP",
+      "display": "Aspirate",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BBL",
+      "display": "Blood bag",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BDY",
+      "display": "Whole body",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BIFL",
+      "display": "Bile fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BLD",
+      "display": "Whole blood",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BLDA",
+      "display": "Blood arterial",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BLDC",
+      "display": "Blood capillary",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BLDCO",
+      "display": "Blood - cord",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BLDV",
+      "display": "Blood venous",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BON",
+      "display": "Bone",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BPH",
+      "display": "Basophils",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BPU",
+      "display": "Blood product unit",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BRN",
+      "display": "Burn",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BRO",
+      "display": "Bronchial",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "BRTH",
+      "display": "Exhaled gas (=breath) Breath (use EXG)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CALC",
+      "display": "Calculus (=Stone) Stone (use CALC)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CDM",
+      "display": "Cardiac muscle",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CNJT",
+      "display": "Conjunctiva",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CNL",
+      "display": "Cannula",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "COL",
+      "display": "Colostrum",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CRN",
+      "display": "Cornea",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CSF",
+      "display": "Cerebral spinal fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CTP",
+      "display": "Catheter tip",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CUR",
+      "display": "Curettage",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CVM",
+      "display": "Cervical mucus",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CVX",
+      "display": "Cervix",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "CYST",
+      "display": "Cyst",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "DIAF",
+      "display": "Dialysis fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "DOSE",
+      "display": "Dose med or substance",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "DRN",
+      "display": "Drain",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "DUFL",
+      "display": "Duodenal fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "EAR",
+      "display": "Ear",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "EARW",
+      "display": "Ear wax (cerumen)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "ELT",
+      "display": "Electrode",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "ENDC",
+      "display": "Endocardium",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "ENDM",
+      "display": "Endometrium",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "EOS",
+      "display": "Eosinophils",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "EXG",
+      "display": "Exhaled gas (=breath) Breath (use EXG)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "EYE",
+      "display": "Eye",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "FIB",
+      "display": "Fibroblasts",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "FIST",
+      "display": "Fistula",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "FLT",
+      "display": "Filter",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "FLU",
+      "display": "Body fluid, unsp",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "FOOD",
+      "display": "Food sample",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GAS",
+      "display": "Gas",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GAST",
+      "display": "Gastric fluid/contents",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GEN",
+      "display": "Genital",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GENC",
+      "display": "Genital cervix",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GENF",
+      "display": "Genital fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GENL",
+      "display": "Genital lochia",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "GENV",
+      "display": "Genital vaginal",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "HAR",
+      "display": "Hair",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "IHG",
+      "display": "Inhaled Gas",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "ISLT",
+      "display": "Isolate",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "display": "Intubation tube",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "LAM",
+      "display": "Lamella",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "LIQ",
+      "display": "Liquid NOS",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "LN",
+      "display": "Line",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "LNA",
+      "display": "Line arterial",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "LNV",
+      "display": "Line venous",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "LYM",
+      "display": "Lymphocytes",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "MAC",
+      "display": "Macrophages",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "MAR",
+      "display": "Marrow (bone)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "MBLD",
+      "display": "Menstrual blood",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "MEC",
+      "display": "Meconium",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "MILK",
+      "display": "Breast milk",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "MLK",
+      "display": "Milk",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "NAIL",
+      "display": "Nail",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "NOS",
+      "display": "Nose (nasal passage)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PAFL",
+      "display": "Pancreatic fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PAT",
+      "display": "Patient",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PLAS",
+      "display": "Plasma",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PLB",
+      "display": "Plasma bag",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PLC",
+      "display": "Placenta",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PLR",
+      "display": "Pleural fluid (thoracentesis fld)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PMN",
+      "display": "Polymorphonuclear neutrophils",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PPP",
+      "display": "Platelet poor plasma",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PRP",
+      "display": "Platelet rich plasma",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PRT",
+      "display": "Peritoneal fluid /ascites",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "PUS",
+      "display": "Pus",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "RBC",
+      "display": "Erythrocytes",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SAL",
+      "display": "Saliva",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SER",
+      "display": "Serum",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SKM",
+      "display": "Skeletal muscle",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SKN",
+      "display": "Skin",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SMN",
+      "display": "Seminal fluid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SMPLS",
+      "display": "Seminal plasma",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SNV",
+      "display": "Synovial fluid (Joint fluid)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SPRM",
+      "display": "Spermatozoa",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SPT",
+      "display": "Sputum",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SPTC",
+      "display": "Sputum - coughed",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SPTT",
+      "display": "Sputum - tracheal aspirate",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "STL",
+      "display": "Stool = Fecal",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "STON",
+      "display": "Calculus (=Stone) Stone (use CALC)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "SWT",
+      "display": "Sweat",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TEAR",
+      "display": "Tears",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "THRB",
+      "display": "Thrombocyte (platelet)",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "THRT",
+      "display": "Throat",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TISG",
+      "display": "Tissue gall bladder",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TISPL",
+      "display": "Tissue placenta",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TISS",
+      "display": "Tissue, unspecified",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TISU",
+      "display": "Tissue ulcer",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TLGI",
+      "display": "Tissue large intestine",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TLNG",
+      "display": "Tissue lung",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TSMI",
+      "display": "Tissue small intestine Tissue ulcer",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "TUB",
+      "display": "Tube, unspecified",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "ULC",
+      "display": "Ulcer",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "UMB",
+      "display": "Umbilical blood",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "UMED",
+      "display": "Unknown medicine",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "UR",
+      "display": "Urine",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "URC",
+      "display": "Urine clean catch",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "URNS",
+      "display": "Urine sediment",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "URT",
+      "display": "Urine catheter",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "URTH",
+      "display": "Urethra",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "USUB",
+      "display": "Unknown substance",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "VOM",
+      "display": "Vomitus",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WAT",
+      "display": "Water",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WBC",
+      "display": "Leukocytes",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WICK",
+      "display": "Wick",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WND",
+      "display": "Wound",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WNDA",
+      "display": "Wound abscess",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WNDD",
+      "display": "Wound drainage",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    },
+    {
+      "code": "WNDE",
+      "display": "Wound exudate",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SpecimenEntityType"
+        }
+      ]
+    }
+  ]
+}

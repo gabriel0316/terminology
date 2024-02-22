@@ -1,0 +1,519 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hl7-participation-function",
+  "url": "https://termgit.elga.gv.at/CodeSystem/hl7-participation-function",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.5.88"
+    }
+  ],
+  "version": "1.0.0+20230131",
+  "name": "hl7-participation-function",
+  "title": "HL7 Participation Function",
+  "status": "retired",
+  "date": "2023-06-30",
+  "content": "complete",
+  "count": 46,
+  "property": [
+    {
+      "code": "child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "ADMPHYS",
+      "display": "admitting physician"
+    },
+    {
+      "code": "ANEST",
+      "display": "anesthesist"
+    },
+    {
+      "code": "ANRS",
+      "display": "anesthesia nurse"
+    },
+    {
+      "code": "ATTPHYS",
+      "display": "attending physician"
+    },
+    {
+      "code": "DISPHYS",
+      "display": "discharging physician"
+    },
+    {
+      "code": "FASST",
+      "display": "first assistant surgeon"
+    },
+    {
+      "code": "MDWF",
+      "display": "midwife"
+    },
+    {
+      "code": "NASST",
+      "display": "nurse assistant"
+    },
+    {
+      "code": "PCP",
+      "display": "primary care physician"
+    },
+    {
+      "code": "PRISURG",
+      "display": "primary surgeon"
+    },
+    {
+      "code": "RNDPHYS",
+      "display": "rounding physician"
+    },
+    {
+      "code": "SASST",
+      "display": "second assistant surgeon"
+    },
+    {
+      "code": "SNRS",
+      "display": "scrub nurse"
+    },
+    {
+      "code": "TASST",
+      "display": "third assistant"
+    },
+    {
+      "code": "_AuthorizedParticipationFunction",
+      "display": "AuthorizedParticipationFunction",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "_AuthorizedReceiverParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "_ConsenterParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "_OverriderParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_AuthorizedReceiverParticipationFunction",
+      "display": "AuthorizedReceiverParticipationFunction",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "AUCG"
+        },
+        {
+          "code": "child",
+          "valueCode": "AULR"
+        },
+        {
+          "code": "child",
+          "valueCode": "AUTM"
+        },
+        {
+          "code": "child",
+          "valueCode": "AUWA"
+        }
+      ]
+    },
+    {
+      "code": "AUCG",
+      "display": "caregiver information receiver",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedReceiverParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "AULR",
+      "display": "legitimate relationship information receiver",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedReceiverParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "AUTM",
+      "display": "care team information receiver",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedReceiverParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "AUWA",
+      "display": "work area information receiver",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedReceiverParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_ConsenterParticipationFunction",
+      "display": "ConsenterParticipationFunction",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "GRDCON"
+        },
+        {
+          "code": "child",
+          "valueCode": "POACON"
+        },
+        {
+          "code": "child",
+          "valueCode": "PRCON"
+        },
+        {
+          "code": "child",
+          "valueCode": "PROMSK"
+        },
+        {
+          "code": "child",
+          "valueCode": "SUBCON"
+        }
+      ]
+    },
+    {
+      "code": "GRDCON",
+      "display": "legal guardian consent author",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_ConsenterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "POACON",
+      "display": "healthcare power of attorney consent author",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_ConsenterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "PRCON",
+      "display": "personal representative consent author",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_ConsenterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "PROMSK",
+      "display": "authorized provider masking author",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_ConsenterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "SUBCON",
+      "display": "subject of consent author",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_ConsenterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_OverriderParticipationFunction",
+      "display": "OverriderParticipationFunction",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_AuthorizedParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "AUCOV"
+        },
+        {
+          "code": "child",
+          "valueCode": "AUEMROV"
+        }
+      ]
+    },
+    {
+      "code": "AUCOV",
+      "display": "consent overrider",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_OverriderParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "AUEMROV",
+      "display": "emergency overrider",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_OverriderParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_CoverageParticipationFunction",
+      "display": "CoverageParticipationFunction",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "_PayorParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "_SponsorParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "_UnderwriterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_PayorParticipationFunction",
+      "display": "PayorParticipationFunction",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_CoverageParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "CLMADJ"
+        },
+        {
+          "code": "child",
+          "valueCode": "ENROLL"
+        },
+        {
+          "code": "child",
+          "valueCode": "FFSMGT"
+        },
+        {
+          "code": "child",
+          "valueCode": "MCMGT"
+        },
+        {
+          "code": "child",
+          "valueCode": "PROVMGT"
+        },
+        {
+          "code": "child",
+          "valueCode": "UMGT"
+        }
+      ]
+    },
+    {
+      "code": "CLMADJ",
+      "display": "claims adjudication",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_PayorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "ENROLL",
+      "display": "enrollment broker",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_PayorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "FFSMGT",
+      "display": "ffs management",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_PayorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "MCMGT",
+      "display": "managed care management",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_PayorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "PROVMGT",
+      "display": "provider management",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_PayorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "UMGT",
+      "display": "utilization management",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_PayorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_SponsorParticipationFunction",
+      "display": "SponsorParticipationFunction",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_CoverageParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "FULINRD"
+        },
+        {
+          "code": "child",
+          "valueCode": "SELFINRD"
+        }
+      ]
+    },
+    {
+      "code": "FULINRD",
+      "display": "fully insured",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SponsorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "SELFINRD",
+      "display": "self insured",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_SponsorParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "_UnderwriterParticipationFunction",
+      "display": "UnderwriterParticipationFunction",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_CoverageParticipationFunction"
+        },
+        {
+          "code": "child",
+          "valueCode": "PAYORCNTR"
+        },
+        {
+          "code": "child",
+          "valueCode": "REINS"
+        },
+        {
+          "code": "child",
+          "valueCode": "RETROCES"
+        },
+        {
+          "code": "child",
+          "valueCode": "SUBCTRT"
+        },
+        {
+          "code": "child",
+          "valueCode": "UNDERWRTNG"
+        }
+      ]
+    },
+    {
+      "code": "PAYORCNTR",
+      "display": "payor contracting",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_UnderwriterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "REINS",
+      "display": "reinsures",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_UnderwriterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "RETROCES",
+      "display": "retrocessionaires",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_UnderwriterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "SUBCTRT",
+      "display": "subcontracting risk",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_UnderwriterParticipationFunction"
+        }
+      ]
+    },
+    {
+      "code": "UNDERWRTNG",
+      "display": "underwriting",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_UnderwriterParticipationFunction"
+        }
+      ]
+    }
+  ]
+}

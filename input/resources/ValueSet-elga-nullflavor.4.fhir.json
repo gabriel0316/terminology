@@ -1,0 +1,344 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-nullflavor",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-nullflavor",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.2"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-nullflavor",
+  "title": "ELGA_NullFlavor",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Set of valid codes to use for describing elements, which carry no value (Only allowed for non-mandatory elements)\n\n**Beschreibung:** Das Value Set wird verwendet, um Elemente zu beschreiben, die keinen Wert tragen (nur erlaubt f\u00fcr Non-Mandatory-Elemente)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "NI",
+            "display": "NoInformation",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "keine Information vorhanden"
+              }
+            ]
+          },
+          {
+            "code": "INV",
+            "display": "invalid",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Nur Gruppierung, nicht verwenden (in CDA R2 nicht erlaubt)"
+              }
+            ]
+          },
+          {
+            "code": "OTH",
+            "display": "Other",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Andere"
+              }
+            ]
+          },
+          {
+            "code": "NINF",
+            "display": "Negative infinity",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "negativ unendlich"
+              }
+            ]
+          },
+          {
+            "code": "PINF",
+            "display": "Positive infinity",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "positiv unendlich"
+              }
+            ]
+          },
+          {
+            "code": "MSK",
+            "display": "Masked",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "maskiert/vertraulich/ nicht freigegeben"
+              }
+            ]
+          },
+          {
+            "code": "NA",
+            "display": "Not applicable",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "nicht anwendbar"
+              }
+            ]
+          },
+          {
+            "code": "UNK",
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "unbekannt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Wert ist unbekannt. Wenn der Wert bekannt ist, aber nicht codiert werden kann, soll UNC oder OTH verwendet werden."
+              }
+            ]
+          },
+          {
+            "code": "ASKU",
+            "display": "Asked, but unknown",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "erfragt, aber unbekannt"
+              }
+            ]
+          },
+          {
+            "code": "NAV",
+            "display": "Temporarily unavailable",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "noch nicht bekannt"
+              }
+            ]
+          },
+          {
+            "code": "NASK",
+            "display": "Not asked",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "nicht erfragt"
+              }
+            ]
+          },
+          {
+            "code": "TRC",
+            "display": "Trace",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "nur in Spuren vorhanden"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:51:37Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "version": "2.1.0",
+        "code": "NI",
+        "display": "NoInformation",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "keine Information vorhanden"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "abstract": true,
+            "version": "2.1.0",
+            "code": "INV",
+            "display": "invalid",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Nur Gruppierung, nicht verwenden (in CDA R2 nicht erlaubt)"
+              }
+            ],
+            "contains": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                "version": "2.1.0",
+                "code": "OTH",
+                "display": "Other",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "Andere"
+                  }
+                ],
+                "contains": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                    "version": "2.1.0",
+                    "code": "NINF",
+                    "display": "Negative infinity",
+                    "designation": [
+                      {
+                        "language": "de-AT",
+                        "value": "negativ unendlich"
+                      }
+                    ]
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                    "version": "2.1.0",
+                    "code": "PINF",
+                    "display": "Positive infinity",
+                    "designation": [
+                      {
+                        "language": "de-AT",
+                        "value": "positiv unendlich"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "version": "2.1.0",
+            "code": "MSK",
+            "display": "Masked",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "maskiert/vertraulich/ nicht freigegeben"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "version": "2.1.0",
+            "code": "NA",
+            "display": "Not applicable",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "nicht anwendbar"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "version": "2.1.0",
+            "code": "UNK",
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "unbekannt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Wert ist unbekannt. Wenn der Wert bekannt ist, aber nicht codiert werden kann, soll UNC oder OTH verwendet werden."
+              }
+            ],
+            "contains": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                "version": "2.1.0",
+                "code": "ASKU",
+                "display": "Asked, but unknown",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "erfragt, aber unbekannt"
+                  }
+                ],
+                "contains": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                    "version": "2.1.0",
+                    "code": "NAV",
+                    "display": "Temporarily unavailable",
+                    "designation": [
+                      {
+                        "language": "de-AT",
+                        "value": "noch nicht bekannt"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                "version": "2.1.0",
+                "code": "NASK",
+                "display": "Not asked",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "nicht erfragt"
+                  }
+                ]
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                "version": "2.1.0",
+                "code": "TRC",
+                "display": "Trace",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "nur in Spuren vorhanden"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

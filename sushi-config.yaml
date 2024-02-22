@@ -1,0 +1,112 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭────────────────────────────ImplementationGuide-AustrianPatient.json────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: gabriel0316.terminologies
+canonical: https://termgit.elga.gv.at
+version: 2.6.0+20240206
+name: termgit
+title: Österreichischer e-Health-Terminologie-Browser
+status: active
+publisher: ELGA GmbH
+description: Der Terminologie-Browser von TerminoloGit, powerd by FHIR IG Publisher.
+license: CC0-1.0
+fhirVersion: 4.3.0
+parameters:
+  show-inherited-invariants: false
+  # in order to preserve the contact of the resources:
+  apply-contact: false
+  # in order to preserve the version of the resources:
+  apply-version: false
+copyrightYear: 2020+
+releaseLabel: TerminoloGit
+
+pages:
+  index.html:
+    title: Home
+    generation: markdown
+  index_en.html:
+    title: Home (en)
+    generation: markdown
+  architecture_de.html:
+    title: Architektur
+    generation: markdown
+  architecture_en.html:
+    title: Architecture
+    generation: markdown
+  file_formats_de.html:
+    title: Dateiformate
+    generation: markdown
+  file_formats_en.html:
+    title: File Formats
+    generation: markdown
+  quickstart_de.html:
+    title: Quickstart (de)
+    generation: markdown
+  quickstart_en.html:
+    title: Quickstart (en)
+    generation: markdown
+  setup_de.html:
+    title: Setup (de)
+    generation: markdown
+  setup_en.html:
+    title: Setup (en)
+    generation: markdown
+  support_de.html:
+    title: Support (de)
+    generation: markdown
+  support_en.html:
+    title: Support (en)
+    generation: markdown
+  technical_documentation_de.html:
+    title: Technische Dokumentation
+    generation: markdown
+  technical_documentation_en.html:
+    title: Technical Documentation
+    generation: markdown
+  ui_features_de.html:
+    title: UI Features (de)
+    generation: markdown
+  ui_features_en.html:
+    title: UI Features (en)
+    generation: markdown
+  use_cases_de.html:
+    title: Wie man TerminoloGit verwendet
+    generation: markdown
+  use_cases_en.html:
+    title: How to use TerminoloGit
+    generation: markdown
+
+
+# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
+# │  To control the ig.ini using this config, uncomment and set the "template" property.           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# template: fhir.base.template
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts Summary: artifacts.html
+  Support & Imprint: support_de.html
+
+# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
+# │  To control the package-list.json using this config, uncomment and set the "history" property. │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# history:
+#   introduction: An example of how FSH can be used to create an IG about AustrianPatient
+#   current:
+#     version: current
+#     desc: Draft
+#     path: http://hl7.at/fhir/4.0.1/HL7ATCoreProfiles
+#     status: ci-build
+#     current: true

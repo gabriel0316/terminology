@@ -1,0 +1,58 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hl7-languageabilitymode",
+  "url": "https://termgit.elga.gv.at/CodeSystem/hl7-languageabilitymode",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.5.60"
+    }
+  ],
+  "version": "1.0.0+20230131",
+  "name": "hl7-languageabilitymode",
+  "title": "HL7 LanguageAbilityMode",
+  "status": "retired",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org/documentcenter/public_temp_ED0BB625-1C23-BA17-0CE4EA7EB5B49D1F/standards/vocabulary/vocabulary_tables/infrastructure/vocabulary/LanguageAbilityMode.html",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/documentcenter/public_temp_ED0BB625-1C23-BA17-0CE4EA7EB5B49D1F/standards/vocabulary/vocabulary_tables/infrastructure/vocabulary/LanguageAbilityMode.html"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** List of codes representing the method of expression of the language\n\n**Beschreibung:** Codes zur Angabe der Sprachf\u00e4higkeit von Patienten (Methode zum Ausdruck von Spache)",
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "ESGN",
+      "display": "Expressed signed"
+    },
+    {
+      "code": "ESP",
+      "display": "Expressed spoken"
+    },
+    {
+      "code": "EWR",
+      "display": "Expressed written"
+    },
+    {
+      "code": "RSGN",
+      "display": "Received signed"
+    },
+    {
+      "code": "RSP",
+      "display": "Received spoken"
+    },
+    {
+      "code": "RWR",
+      "display": "Received written"
+    }
+  ]
+}

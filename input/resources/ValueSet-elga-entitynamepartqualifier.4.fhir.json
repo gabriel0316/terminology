@@ -1,0 +1,479 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-entitynamepartqualifier",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-entitynamepartqualifier",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.6.0.10.8"
+    }
+  ],
+  "version": "2.1.0+20230630",
+  "name": "elga-entitynamepartqualifier",
+  "title": "ELGA_EntityNamePartQualifier",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Description of prefixes and suffixes, which can be appended to a name.\n\n**Beschreibung:** Beschreibt die Pr\u00e4fixe und Suffixe, die zu einem Namen hinzugef\u00fcgt werden k\u00f6nnen.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "AC",
+            "display": "academic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Akademischer Grad"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Akademischer Grad (Indicates that a prefix like 'Dr.' or a suffix like 'M.D.' or 'Ph.D.' is an academic title.)"
+              }
+            ]
+          },
+          {
+            "code": "AD",
+            "display": "adopted",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Adoptivname"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Adoptivname (The name the person was given at the time of adoption.)"
+              }
+            ]
+          },
+          {
+            "code": "BR",
+            "display": "birth",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Familienname/Nachname bei Geburt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Familienname/Nachname bei Geburt (A name that a person had shortly after being born. Usually for family names but may be used to mark given names at birth that may have changed later.)"
+              }
+            ]
+          },
+          {
+            "code": "CL",
+            "display": "callme",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Rufname"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Rufname (A callme name is (usually a given name) that is preferred when a person is directly addressed.)"
+              }
+            ]
+          },
+          {
+            "code": "IN",
+            "display": "initial",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Initial"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Initial  (Indicates that a name part is just an initial. Initials do not imply a trailing period since this would not work with non-Latin scripts. Initials may consist of more than one letter, e.g., 'Ph.' could stand for 'Philippe' or 'Th.' for 'Thomas'.)"
+              }
+            ]
+          },
+          {
+            "code": "LS",
+            "display": "Legal status",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Rechtsform"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Rechtsform (For organizations a suffix indicating the legal status, e.g., 'Inc.', 'Co.', 'AG', 'GmbH', 'B.V.' 'S.A.', 'Ltd.' etc.)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "F\u00fcr Organisationen"
+              }
+            ]
+          },
+          {
+            "code": "NB",
+            "display": "nobility",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Adelstitel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Adelstitel (In Europe and Asia, there are still people with nobility titles (aristocrats). German 'von' is generally a nobility title, not a mere voorvoegsel. Others are 'Earl of' or 'His Majesty King of...' etc. Rarely used nowadays, but some systems do keep track of this.)"
+              }
+            ]
+          },
+          {
+            "code": "PR",
+            "display": "professional",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Berufstitel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Berufstitel (Primarily in the British Imperial culture people tend to have an abbreviation of their professional organization as part of their credential suffices.)"
+              }
+            ]
+          },
+          {
+            "code": "SP",
+            "display": "spouse",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ehename"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Ehename (The name assumed from the partner in a marital relationship (hence the 'M'). Usually the spouse's family name. Note that no inference about gender can be made from the existence of spouse names.)"
+              }
+            ]
+          },
+          {
+            "code": "TITLE",
+            "display": "title",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Titel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Titel (Indicates that a prefix or a suffix is a title that applies to the whole name, not just the adjacent name part.)"
+              }
+            ]
+          },
+          {
+            "code": "VV",
+            "display": "voorvoegsel",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Namenspr\u00e4fix"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Namenspr\u00e4fix (A Dutch 'voorvoegsel' is something like 'van' or 'de' that might have indicated nobility in the past but no longer so. Similar prefixes exist in other languages such as Spanish, French or Portugese.)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:51:39Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "AC",
+        "display": "academic",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Akademischer Grad"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Akademischer Grad (Indicates that a prefix like 'Dr.' or a suffix like 'M.D.' or 'Ph.D.' is an academic title.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "AD",
+        "display": "adopted",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Adoptivname"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Adoptivname (The name the person was given at the time of adoption.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "BR",
+        "display": "birth",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Familienname/Nachname bei Geburt"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Familienname/Nachname bei Geburt (A name that a person had shortly after being born. Usually for family names but may be used to mark given names at birth that may have changed later.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "CL",
+        "display": "callme",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Rufname"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Rufname (A callme name is (usually a given name) that is preferred when a person is directly addressed.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "IN",
+        "display": "initial",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Initial"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Initial  (Indicates that a name part is just an initial. Initials do not imply a trailing period since this would not work with non-Latin scripts. Initials may consist of more than one letter, e.g., 'Ph.' could stand for 'Philippe' or 'Th.' for 'Thomas'.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "LS",
+        "display": "Legal status",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Rechtsform"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Rechtsform (For organizations a suffix indicating the legal status, e.g., 'Inc.', 'Co.', 'AG', 'GmbH', 'B.V.' 'S.A.', 'Ltd.' etc.)"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "F\u00fcr Organisationen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "NB",
+        "display": "nobility",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Adelstitel"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Adelstitel (In Europe and Asia, there are still people with nobility titles (aristocrats). German 'von' is generally a nobility title, not a mere voorvoegsel. Others are 'Earl of' or 'His Majesty King of...' etc. Rarely used nowadays, but some systems do keep track of this.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "PR",
+        "display": "professional",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Berufstitel"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Berufstitel (Primarily in the British Imperial culture people tend to have an abbreviation of their professional organization as part of their credential suffices.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "SP",
+        "display": "spouse",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ehename"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Ehename (The name assumed from the partner in a marital relationship (hence the 'M'). Usually the spouse's family name. Note that no inference about gender can be made from the existence of spouse names.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "TITLE",
+        "display": "title",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Titel"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Titel (Indicates that a prefix or a suffix is a title that applies to the whole name, not just the adjacent name part.)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+        "version": "2.1.0",
+        "code": "VV",
+        "display": "voorvoegsel",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Namenspr\u00e4fix"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Namenspr\u00e4fix (A Dutch 'voorvoegsel' is something like 'van' or 'de' that might have indicated nobility in the past but no longer so. Similar prefixes exist in other languages such as Spanish, French or Portugese.)"
+          }
+        ]
+      }
+    ]
+  }
+}

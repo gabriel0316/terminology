@@ -1,0 +1,133 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-einnahmezeitpunkte",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-einnahmezeitpunkte",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.59"
+    }
+  ],
+  "version": "1.1.1+20240129",
+  "name": "elga-einnahmezeitpunkte",
+  "title": "ELGA_Einnahmezeitpunkte",
+  "status": "active",
+  "date": "2024-01-29",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "https://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Timing Events for drug administration\n\n**Beschreibung:** Einnahmezeitpunkte f\u00fcr Medikamente",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "ACD",
+            "display": "ACD",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Mittags"
+              }
+            ]
+          },
+          {
+            "code": "ACM",
+            "display": "ACM",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Morgens"
+              }
+            ]
+          },
+          {
+            "code": "ACV",
+            "display": "ACV",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Abends"
+              }
+            ]
+          },
+          {
+            "code": "HS",
+            "display": "HS",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Nachts"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2024-01-30T15:56:42Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+        "version": "2.1.0",
+        "code": "ACD",
+        "display": "ACD",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Mittags"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+        "version": "2.1.0",
+        "code": "ACM",
+        "display": "ACM",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Morgens"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+        "version": "2.1.0",
+        "code": "ACV",
+        "display": "ACV",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Abends"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+        "version": "2.1.0",
+        "code": "HS",
+        "display": "HS",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Nachts"
+          }
+        ]
+      }
+    ]
+  }
+}

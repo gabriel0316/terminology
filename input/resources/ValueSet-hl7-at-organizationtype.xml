@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="hl7-at-organizationtype"/>
+    <url value="https://termgit.elga.gv.at/ValueSet/hl7-at-organizationtype"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.40.0.34.6.0.10.86"/>
+    </identifier>
+    <version value="1.0.0+20231120"/>
+    <name value="hl7-at-organizationtype"/>
+    <title value="HL7-at_OrganizationType"/>
+    <status value="active"/>
+    <date value="2023-11-20"/>
+    <compose>
+        <include>
+            <!-- 2.16.840.1.113883.6.96 copied from https://mio.kbv.de/pages/viewpage.action?pageId=164992015 -->
+            <system value="https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen"/>
+            <!-- <version value="http://snomed.info/sct/900000000000207008/version/20220331"/> -->
+            <filter>
+                <property value="parent"/>
+                <op value="="/>
+                <value value="20"/>
+            </filter>
+        </include>
+    </compose>
+</ValueSet>

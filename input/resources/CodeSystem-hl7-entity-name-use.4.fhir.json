@@ -1,0 +1,169 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hl7-entity-name-use",
+  "url": "https://termgit.elga.gv.at/CodeSystem/hl7-entity-name-use",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.5.45"
+    }
+  ],
+  "version": "1.0.0+20230131",
+  "name": "hl7-entity-name-use",
+  "title": "HL7 Entity Name Use",
+  "status": "retired",
+  "date": "2023-06-30",
+  "content": "complete",
+  "count": 15,
+  "property": [
+    {
+      "code": "child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "ASGN",
+      "display": "assigned"
+    },
+    {
+      "code": "C",
+      "display": "License"
+    },
+    {
+      "code": "I",
+      "display": "Indigenous/Tribal"
+    },
+    {
+      "code": "L",
+      "display": "Legal",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "OR"
+        }
+      ]
+    },
+    {
+      "code": "OR",
+      "display": "official registry",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "L"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "pseudonym",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "A"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "display": "Artist/Stage",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "P"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Religious"
+    },
+    {
+      "code": "SRCH",
+      "display": "search v:HL7SearchUse",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "PHON"
+        },
+        {
+          "code": "child",
+          "valueCode": "SNDX"
+        }
+      ]
+    },
+    {
+      "code": "PHON",
+      "display": "phonetic",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "SRCH"
+        }
+      ]
+    },
+    {
+      "code": "SNDX",
+      "display": "Soundex",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "SRCH"
+        }
+      ]
+    },
+    {
+      "code": "_NameRepresentationUse",
+      "display": "NameRepresentationUse",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "ABC"
+        },
+        {
+          "code": "child",
+          "valueCode": "IDE"
+        },
+        {
+          "code": "child",
+          "valueCode": "SYL"
+        }
+      ]
+    },
+    {
+      "code": "ABC",
+      "display": "Alphabetic",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_NameRepresentationUse"
+        }
+      ]
+    },
+    {
+      "code": "IDE",
+      "display": "Ideographic",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_NameRepresentationUse"
+        }
+      ]
+    },
+    {
+      "code": "SYL",
+      "display": "Syllabic",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "_NameRepresentationUse"
+        }
+      ]
+    }
+  ]
+}

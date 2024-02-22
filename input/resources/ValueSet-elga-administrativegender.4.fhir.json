@@ -1,0 +1,185 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-administrativegender",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-administrativegender",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.4"
+    }
+  ],
+  "version": "2.0.0+20231113",
+  "name": "elga-administrativegender",
+  "title": "ELGA_AdministrativeGender",
+  "status": "active",
+  "date": "2023-11-13",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** The gender of a person used for adminstrative purposes (as opposed to clinical gender).\n\n**Beschreibung:** Das Geschlecht einer Person zur administrativen Nutzung (entspricht nicht notwendigerweise dem biologischen oder medizinischen Geschlecht).",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "F",
+            "display": "Female",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Weiblich"
+              }
+            ]
+          },
+          {
+            "code": "M",
+            "display": "Male",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "M\u00e4nnlich"
+              }
+            ]
+          },
+          {
+            "code": "UN",
+            "display": "Undifferentiated",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Nicht-bin\u00e4r"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+        "version": "1.0.0+20231113",
+        "concept": [
+          {
+            "code": "D",
+            "display": "Divers",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Divers"
+              }
+            ]
+          },
+          {
+            "code": "I",
+            "display": "Inter",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Inter"
+              }
+            ]
+          },
+          {
+            "code": "O",
+            "display": "Offen",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Offen"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:51:42Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+        "version": "2.1.0",
+        "code": "F",
+        "display": "Female",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Weiblich"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+        "version": "2.1.0",
+        "code": "M",
+        "display": "Male",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "M\u00e4nnlich"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+        "version": "2.1.0",
+        "code": "UN",
+        "display": "Undifferentiated",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Nicht-bin\u00e4r"
+          }
+        ],
+        "contains": [
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+            "version": "1.0.0+20231113",
+            "code": "D",
+            "display": "Divers",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Divers"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+            "version": "1.0.0+20231113",
+            "code": "I",
+            "display": "Inter",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Inter"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+            "version": "1.0.0+20231113",
+            "code": "O",
+            "display": "Offen",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Offen"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

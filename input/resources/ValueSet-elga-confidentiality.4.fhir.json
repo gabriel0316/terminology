@@ -1,0 +1,105 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-confidentiality",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-confidentiality",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.7"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-confidentiality",
+  "title": "ELGA_Confidentiality",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** This Value Set is used to declare confidentiality for the entire CDA-Document. Due to the fact that all medical documents are confidential and the access rules within ELGA are controlled by the ''Access Control''- set of regulations, all documents are assigned ConfidentialityCode N (normal). This is a limited subset of the original codelist.\n\n**Beschreibung:** Das Value Set wird verwendet, um die Vertraulichkeit f\u00fcr das gesamte CDA-Dokument anzugeben. Da alle medizinischen Dokumente vertraulich sind und die Zugriffsregeln in ELGA au\u00dferhalb des Dokuments durch das Berechtigungsregelwerk gesteuert werden, bekommen alle Dokumente den ConfidentialityCode N (normal).     Eingeschr\u00e4nktes Subset der originalen Codeliste.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "concept": [
+          {
+            "code": "L",
+            "display": "low"
+          },
+          {
+            "code": "M",
+            "display": "moderate"
+          },
+          {
+            "code": "N",
+            "display": "normal"
+          },
+          {
+            "code": "R",
+            "display": "restricted"
+          },
+          {
+            "code": "U",
+            "display": "unrestricted"
+          },
+          {
+            "code": "V",
+            "display": "very restricted"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:52:11Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "code": "L",
+        "display": "low"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "code": "M",
+        "display": "moderate"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "code": "N",
+        "display": "normal"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "code": "R",
+        "display": "restricted"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "code": "U",
+        "display": "unrestricted"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "version": "2.2.0",
+        "code": "V",
+        "display": "very restricted"
+      }
+    ]
+  }
+}

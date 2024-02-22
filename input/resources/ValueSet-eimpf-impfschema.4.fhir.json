@@ -1,0 +1,1688 @@
+{
+  "resourceType": "ValueSet",
+  "id": "eimpf-impfschema",
+  "url": "https://termgit.elga.gv.at/ValueSet/eimpf-impfschema",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.6.0.10.5"
+    }
+  ],
+  "version": "2.13.0+20231220",
+  "name": "eimpf-impfschema",
+  "title": "eImpf_Impfschema",
+  "status": "active",
+  "date": "2023-12-20",
+  "description": "**Description:** Rules on vaccine doses for obtaining or refreshing (boosting) basic immunisation. Contains information protected by copyright of SNOMED International. Any use of SNOMED CT in Austria requires a valid affiliate license or sublicense. The corresponding license is free of charge, provided that the use only takes place in Austria and fulfills the conditions of the Affiliate License Agreement. Affiliate licenses can be requested directly from the respective NRC via the Member Licensing and Distribution Service (MLDS). https://mlds.ihtsdotools.org/#/landing/AT?lang=de\n\n**Beschreibung:** Regelwerk der Impfdosen zur Erlangung der Grundimmunisierung oder deren Auffrischung. Enth\u00e4lt durch SNOMED International urheberrechtlich gesch\u00fctzte Information. Jede Verwendung von SNOMED CT in \u00d6sterreich erfordert eine aufrechte Affiliate Lizenz oder eine Sublizenz. Die entsprechende Lizenz ist kostenlos, vorausgesetzt die Verwendung findet nur in \u00d6sterreich statt und erf\u00fcllt die Bedingungen des Affiliate License Agreements. Affiliate Lizenzen k\u00f6nnen \u00fcber das Member Licensing and Distribution Service (MLDS) direkt beim jeweiligen NRC beantragt werden. https://mlds.ihtsdotools.org/#/landing/AT?lang=de",
+  "compose": {
+    "inactive": true,
+    "include": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "concept": [
+          {
+            "code": "SCHEMA001",
+            "display": "Kombinationsschema Di-Te-Pert-HiB-IPV-HepB, Erstimpfung bis 1 Jahr"
+          },
+          {
+            "code": "SCHEMA002",
+            "display": "Kombinationsschema Di-Te-Pert-HiB-IPV-HepB, Erstimpfung ab 1 Jahr"
+          },
+          {
+            "code": "SCHEMA003",
+            "display": "Kombinationsschema Di-Te-Pert-IPV-HepB, Erstimpfung ab 6 Jahren",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA004",
+            "display": "Kombinationsschema Di-Te-Pert-HiB-IPV-HepB, Indikation"
+          },
+          {
+            "code": "SCHEMA005",
+            "display": "FSME Grundschema, FSME-Immun"
+          },
+          {
+            "code": "SCHEMA006",
+            "display": "FSME Grundschema, Encepur"
+          },
+          {
+            "code": "SCHEMA007",
+            "display": "FSME Grundschema, FSME-Immun, Erstimpfung bis 1 Jahr"
+          },
+          {
+            "code": "SCHEMA008",
+            "display": "FSME Grundschema, Encepur, Erstimpfung bis 1 Jahr"
+          },
+          {
+            "code": "SCHEMA009",
+            "display": "FSME Schnellschema, FSME-Immun"
+          },
+          {
+            "code": "SCHEMA010",
+            "display": "FSME Schnellschema, Encepur"
+          },
+          {
+            "code": "SCHEMA011",
+            "display": "Haemophilus influenzae Typ B Indikationsschema"
+          },
+          {
+            "code": "SCHEMA012",
+            "display": "Hepatitis A Monokomponente Indikationsschema"
+          },
+          {
+            "code": "SCHEMA013",
+            "display": "Hepatitis AB Grundschema"
+          },
+          {
+            "code": "SCHEMA014",
+            "display": "Hepatitis A Monokomponente Grundschema"
+          },
+          {
+            "code": "SCHEMA015",
+            "display": "Hepatitis AB Schnellschema",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA016",
+            "display": "Hepatitis A & Typhus Grundschema"
+          },
+          {
+            "code": "SCHEMA017",
+            "display": "Hepatitis B Monokomponente Grundschema"
+          },
+          {
+            "code": "SCHEMA019",
+            "display": "Hepatitis B Non-/Low-Responder Indikationsschema"
+          },
+          {
+            "code": "SCHEMA020",
+            "display": "HPV Grundschema, bis 21 Jahre"
+          },
+          {
+            "code": "SCHEMA021",
+            "display": "HPV Grundschema, ab 21 Jahren"
+          },
+          {
+            "code": "SCHEMA022",
+            "display": "HPV Indikationsschema"
+          },
+          {
+            "code": "SCHEMA023",
+            "display": "Influenza Grundschema, Erstimpfung Kinder"
+          },
+          {
+            "code": "SCHEMA024",
+            "display": "Influenza Grundschema, Einmalimpfung"
+          },
+          {
+            "code": "SCHEMA025",
+            "display": "MMR Grundschema ab 9 Monaten"
+          },
+          {
+            "code": "SCHEMA027",
+            "display": "MMR Indikationsschema, Erstimpfung 6-8 Monate"
+          },
+          {
+            "code": "SCHEMA028",
+            "display": "Meningokokken B Grundschema, Erstimpfung 2-5 Monate, 4 Dosen",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA029",
+            "display": "Meningokokken B Grundschema, Erstimpfung 2-5 Monate"
+          },
+          {
+            "code": "SCHEMA030",
+            "display": "Meningokokken B Grundschema, Erstimpfung 6-11 Monate"
+          },
+          {
+            "code": "SCHEMA031",
+            "display": "Meningokokken B Grundschema, Erstimpfung 12-23 Monate"
+          },
+          {
+            "code": "SCHEMA032",
+            "display": "Meningokokken B Grundschema, Erstimpfung 2-25 Jahre, Bexsero"
+          },
+          {
+            "code": "SCHEMA033",
+            "display": "Meningokokken B Indikationsschema, ab 25 Jahren, Bexsero"
+          },
+          {
+            "code": "SCHEMA034",
+            "display": "Meningokokken B Indikationsschema, ab 25 Jahren, Trumenba"
+          },
+          {
+            "code": "SCHEMA035",
+            "display": "Meningokokken C Indikationsschema, 2-4 Monate, Neisvac C",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA036",
+            "display": "Meningokokken C Indikationsschema, 2-12 Monate, Menjugate",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA037",
+            "display": "Meningokokken C Indikationsschema, 4-12 Monate, Neisvac C",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA038",
+            "display": "Meningokokken C Grundschema, ab 1 Jahr"
+          },
+          {
+            "code": "SCHEMA039",
+            "display": "Meningokokken ACWY Grundschema, ab 10 Jahren"
+          },
+          {
+            "code": "SCHEMA040",
+            "display": "Meningokokken ACWY Indikationsschema, ab 1 Jahr",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA041",
+            "display": "Meningokokken ACWY Indikationsschema, Erstimpfung bis 1 Jahr",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA042",
+            "display": "Pneumokokken Grundschema, Erstimpfung bis 1 Jahr"
+          },
+          {
+            "code": "SCHEMA043",
+            "display": "Pneumokokken Grundschema, Erstimpfung 1-2 Jahre"
+          },
+          {
+            "code": "SCHEMA044",
+            "display": "Pneumokokken Indikationsschema (hohes Risiko), Erstimpfung bis 1 Jahr"
+          },
+          {
+            "code": "SCHEMA045",
+            "display": "Pneumokokken Indikationsschema (hohes Risiko), Erstimpfung im 2. Lebensjahr"
+          },
+          {
+            "code": "SCHEMA046",
+            "display": "Pneumokokken Indikationsschema (hohes Risiko), Erstimpfung ab 3 Jahren"
+          },
+          {
+            "code": "SCHEMA050",
+            "display": "Rotavirus Grundschema, 2 Dosen, Erstimpfung ab der vollendeten 6.-20. Lebenswoche, Rotarix"
+          },
+          {
+            "code": "SCHEMA051",
+            "display": "Rotavirus Grundschema, 2 Dosen, Erstimpfung ab der vollendeten 24.-28. Lebenswoche, Rotateq"
+          },
+          {
+            "code": "SCHEMA052",
+            "display": "Rotavirus Grundschema, 1 Dosis, Erstimpfung ab der vollendeten 20.-24. Lebenswoche, Rotarix"
+          },
+          {
+            "code": "SCHEMA053",
+            "display": "Rotavirus Grundschema, 1 Dosis, Erstimpfung ab der vollendeten 28.-32. Lebenswoche, Rotateq"
+          },
+          {
+            "code": "SCHEMA054",
+            "display": "Rotavirus Grundschema, 3 Dosen, Erstimpfung ab der vollendeten 6.- 24. Lebenswoche, Rotateq"
+          },
+          {
+            "code": "SCHEMA060",
+            "display": "Varizellen Grundschema, ab 1 Jahr"
+          },
+          {
+            "code": "SCHEMA061",
+            "display": "Kombinationsschema MMRV, ab 9 Monaten, MMR - MMRV - V"
+          },
+          {
+            "code": "SCHEMA062",
+            "display": "Kombinationsschema MMRV, ab 12 Monaten, MMR - MMRV - V"
+          },
+          {
+            "code": "SCHEMA063",
+            "display": "Varizellen Indikationsschema, Erstimpfung bis 1 Jahr"
+          },
+          {
+            "code": "SCHEMA064",
+            "display": "Herpes Zoster Grundschema, ab 50 Jahren"
+          },
+          {
+            "code": "SCHEMA065",
+            "display": "Gelbfieber Grundschema, ab dem vollendeten 9. Lebensmonat"
+          },
+          {
+            "code": "SCHEMA066",
+            "display": "Japanische Enzephalitis Grundschema, ab 2 Monaten"
+          },
+          {
+            "code": "SCHEMA067",
+            "display": "Japanische Enzephalitis Schnellschema, ab 18 Jahren"
+          },
+          {
+            "code": "SCHEMA068",
+            "display": "Typhus Grundschema, Injektion"
+          },
+          {
+            "code": "SCHEMA069",
+            "display": "Typhus Grundschema, Oral"
+          },
+          {
+            "code": "SCHEMA070",
+            "display": "Tollwut Grundschema"
+          },
+          {
+            "code": "SCHEMA071",
+            "display": "Tollwut Schnellschema"
+          },
+          {
+            "code": "SCHEMA072",
+            "display": "Tollwut postexpositionelles Schema, Essen 4 Dosen"
+          },
+          {
+            "code": "SCHEMA073",
+            "display": "Tollwut postexpositionelles Schema, Essen 5 Dosen"
+          },
+          {
+            "code": "SCHEMA074",
+            "display": "Tollwut postexpositionelles Schema, Zagreb"
+          },
+          {
+            "code": "SCHEMA075",
+            "display": "Tollwut postexpositionelles Schema, mit Tollwut-Vorimpfung"
+          },
+          {
+            "code": "SCHEMA076",
+            "display": "Cholera Grundschema, Erstimpfung 2-6 Jahre"
+          },
+          {
+            "code": "SCHEMA078",
+            "display": "Cholera Grundschema, Erstimpfung ab 6 Jahren"
+          },
+          {
+            "code": "SCHEMA079",
+            "display": "Meningokokken B Grundschema, Erstimpfung 10-25 Jahre, Trumenba"
+          },
+          {
+            "code": "SCHEMA080",
+            "display": "Kombinationsschema Di-Te-Pert-IPV"
+          },
+          {
+            "code": "SCHEMA081",
+            "display": "Kombinationsschema Di-Te-Pert"
+          },
+          {
+            "code": "SCHEMA082",
+            "display": "Kombinationsschema Di-Te",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA083",
+            "display": "Tetanus Monokomponente",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA084",
+            "display": "Poliomyelitis Indikationsschema ab dem vollendeten 2. Lebensmonat"
+          },
+          {
+            "code": "SCHEMA085",
+            "display": "Hepatitis B Monokomponente Indikationsschema"
+          },
+          {
+            "code": "SCHEMA086",
+            "display": "SARS-CoV-2 Grundschema, Comirnaty",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA087",
+            "display": "SARS-CoV-2 Grundschema, Spikevax",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA088",
+            "display": "SARS-CoV-2 Grundschema, Vaxzevria",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA089",
+            "display": "SARS-CoV-2 Grundschema, Jcovden",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA090",
+            "display": "SARS-CoV-2 Grundschema, Auslandsimpfung",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA091",
+            "display": "Herpes Zoster Grundschema, nach Zostavax"
+          },
+          {
+            "code": "SCHEMA092",
+            "display": "Herpes Zoster Indikationsschema, ab 18 Jahren"
+          },
+          {
+            "code": "SCHEMA093",
+            "display": "MMR Grundschema, ab 1 Jahr"
+          },
+          {
+            "code": "SCHEMA094",
+            "display": "SARS-CoV-2 Indikationsschema, Comirnaty",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA095",
+            "display": "SARS-CoV-2 Indikationsschema, Spikevax",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA096",
+            "display": "SARS-CoV-2 heterologes Schema (Impfstoffwechsel)",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA097",
+            "display": "Pneumokokken Grundschema, Erstimpfung 2-5 Jahre"
+          },
+          {
+            "code": "SCHEMA098",
+            "display": "Pneumokokken Grundschema, ab 60 Jahre"
+          },
+          {
+            "code": "SCHEMA099",
+            "display": "SARS-CoV-2 Grundschema, Nuvaxovid",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA100",
+            "display": "Kombinationsschema MMRV, ab 9 Monaten, MMRV - MMRV"
+          },
+          {
+            "code": "SCHEMA101",
+            "display": "Kombinationsschema MMRV, ab 12 Monaten, MMRV - MMRV"
+          },
+          {
+            "code": "SCHEMA102",
+            "display": "Hepatitis B Monokomponente Schnellschema durch Indikation"
+          },
+          {
+            "code": "SCHEMA103",
+            "display": "Hepatitis B Prophylaxe Neugeborener Indikationsschema"
+          },
+          {
+            "code": "SCHEMA104",
+            "display": "Influenza Indikationsschema"
+          },
+          {
+            "code": "SCHEMA105",
+            "display": "Kombinationsschema Di-Te-IPV",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA106",
+            "display": "Meningokokken ACWY Indikationsschema, Nimenrix bis 6 Monate"
+          },
+          {
+            "code": "SCHEMA107",
+            "display": "Meningokokken ACWY Indikationsschema, Nimenrix ab 6 Monate"
+          },
+          {
+            "code": "SCHEMA108",
+            "display": "Meningokokken ACWY Indikationsschema, Nimenrix ab 1 Jahr",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA109",
+            "display": "Meningokokken ACWY Indikationsschema, Menveo ab 2 Jahre"
+          },
+          {
+            "code": "SCHEMA110",
+            "display": "SARS-CoV-2 Indikationsschema"
+          },
+          {
+            "code": "SCHEMA111",
+            "display": "(Affen-)Pocken Indikationsschema"
+          },
+          {
+            "code": "SCHEMA112",
+            "display": "SARS-CoV-2 Grundschema, Valneva",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA113",
+            "display": "Kombinationsschema MMRV, ab 9 Monaten, MMRV - MMR - V",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA114",
+            "display": "Kombinationsschema MMRV, ab 12 Monaten, MMRV - MMR - V",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "SCHEMA115",
+            "display": "(Affen-)Pocken Indikationsschema, einmalige Impfung"
+          },
+          {
+            "code": "SCHEMA116",
+            "display": "Pneumokokken Indikationsschema (erh\u00f6htes Risiko), ab 50 Jahren"
+          },
+          {
+            "code": "SCHEMA117",
+            "display": "SARS-CoV-2 Grundschema, Kleinkind"
+          },
+          {
+            "code": "SCHEMA118",
+            "display": "Pneumokokken Indikationsschema, Fr\u00fchgeborene"
+          },
+          {
+            "code": "SCHEMA119",
+            "display": "Dengue-Fieber Grundschema, 2 Dosen"
+          },
+          {
+            "code": "SCHEMA120",
+            "display": "Poliomyelitis Indikationsschema ab dem vollendeten 1. Lebensjahr"
+          },
+          {
+            "code": "SCHEMA121",
+            "display": "RSV Grundschema"
+          },
+          {
+            "code": "SCHEMA122",
+            "display": "SARS-CoV-2 Grundschema"
+          },
+          {
+            "code": "SCHEMA123",
+            "display": "Tollwut Schnellschema (WHO)"
+          },
+          {
+            "code": "SCHEMA124",
+            "display": "Tollwut Schnellschema (WHO), intradermal"
+          },
+          {
+            "code": "SCHEMA125",
+            "display": "Meningokokken ACWY, ab 1 Jahr"
+          },
+          {
+            "code": "SCHEMA126",
+            "display": "FSME beschleunigtes konventionelles Schema, Encepur"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-20T13:29:54Z",
+    "contains": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA001",
+        "display": "Kombinationsschema Di-Te-Pert-HiB-IPV-HepB, Erstimpfung bis 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA002",
+        "display": "Kombinationsschema Di-Te-Pert-HiB-IPV-HepB, Erstimpfung ab 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA003",
+        "display": "Kombinationsschema Di-Te-Pert-IPV-HepB, Erstimpfung ab 6 Jahren",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA004",
+        "display": "Kombinationsschema Di-Te-Pert-HiB-IPV-HepB, Indikation"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA005",
+        "display": "FSME Grundschema, FSME-Immun"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA006",
+        "display": "FSME Grundschema, Encepur"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA007",
+        "display": "FSME Grundschema, FSME-Immun, Erstimpfung bis 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA008",
+        "display": "FSME Grundschema, Encepur, Erstimpfung bis 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA009",
+        "display": "FSME Schnellschema, FSME-Immun"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA010",
+        "display": "FSME Schnellschema, Encepur"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA011",
+        "display": "Haemophilus influenzae Typ B Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA012",
+        "display": "Hepatitis A Monokomponente Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA013",
+        "display": "Hepatitis AB Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA014",
+        "display": "Hepatitis A Monokomponente Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA015",
+        "display": "Hepatitis AB Schnellschema",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA016",
+        "display": "Hepatitis A & Typhus Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA017",
+        "display": "Hepatitis B Monokomponente Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA019",
+        "display": "Hepatitis B Non-/Low-Responder Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA020",
+        "display": "HPV Grundschema, bis 21 Jahre"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA021",
+        "display": "HPV Grundschema, ab 21 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA022",
+        "display": "HPV Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA023",
+        "display": "Influenza Grundschema, Erstimpfung Kinder"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA024",
+        "display": "Influenza Grundschema, Einmalimpfung"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA025",
+        "display": "MMR Grundschema ab 9 Monaten"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA027",
+        "display": "MMR Indikationsschema, Erstimpfung 6-8 Monate"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA028",
+        "display": "Meningokokken B Grundschema, Erstimpfung 2-5 Monate, 4 Dosen",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA029",
+        "display": "Meningokokken B Grundschema, Erstimpfung 2-5 Monate"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA030",
+        "display": "Meningokokken B Grundschema, Erstimpfung 6-11 Monate"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA031",
+        "display": "Meningokokken B Grundschema, Erstimpfung 12-23 Monate"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA032",
+        "display": "Meningokokken B Grundschema, Erstimpfung 2-25 Jahre, Bexsero"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA033",
+        "display": "Meningokokken B Indikationsschema, ab 25 Jahren, Bexsero"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA034",
+        "display": "Meningokokken B Indikationsschema, ab 25 Jahren, Trumenba"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA035",
+        "display": "Meningokokken C Indikationsschema, 2-4 Monate, Neisvac C",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA036",
+        "display": "Meningokokken C Indikationsschema, 2-12 Monate, Menjugate",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA037",
+        "display": "Meningokokken C Indikationsschema, 4-12 Monate, Neisvac C",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA038",
+        "display": "Meningokokken C Grundschema, ab 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA039",
+        "display": "Meningokokken ACWY Grundschema, ab 10 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA040",
+        "display": "Meningokokken ACWY Indikationsschema, ab 1 Jahr",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA041",
+        "display": "Meningokokken ACWY Indikationsschema, Erstimpfung bis 1 Jahr",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA042",
+        "display": "Pneumokokken Grundschema, Erstimpfung bis 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA043",
+        "display": "Pneumokokken Grundschema, Erstimpfung 1-2 Jahre"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA044",
+        "display": "Pneumokokken Indikationsschema (hohes Risiko), Erstimpfung bis 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA045",
+        "display": "Pneumokokken Indikationsschema (hohes Risiko), Erstimpfung im 2. Lebensjahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA046",
+        "display": "Pneumokokken Indikationsschema (hohes Risiko), Erstimpfung ab 3 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA050",
+        "display": "Rotavirus Grundschema, 2 Dosen, Erstimpfung ab der vollendeten 6.-20. Lebenswoche, Rotarix"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA051",
+        "display": "Rotavirus Grundschema, 2 Dosen, Erstimpfung ab der vollendeten 24.-28. Lebenswoche, Rotateq"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA052",
+        "display": "Rotavirus Grundschema, 1 Dosis, Erstimpfung ab der vollendeten 20.-24. Lebenswoche, Rotarix"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA053",
+        "display": "Rotavirus Grundschema, 1 Dosis, Erstimpfung ab der vollendeten 28.-32. Lebenswoche, Rotateq"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA054",
+        "display": "Rotavirus Grundschema, 3 Dosen, Erstimpfung ab der vollendeten 6.- 24. Lebenswoche, Rotateq"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA060",
+        "display": "Varizellen Grundschema, ab 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA061",
+        "display": "Kombinationsschema MMRV, ab 9 Monaten, MMR - MMRV - V"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA062",
+        "display": "Kombinationsschema MMRV, ab 12 Monaten, MMR - MMRV - V"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA063",
+        "display": "Varizellen Indikationsschema, Erstimpfung bis 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA064",
+        "display": "Herpes Zoster Grundschema, ab 50 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA065",
+        "display": "Gelbfieber Grundschema, ab dem vollendeten 9. Lebensmonat"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA066",
+        "display": "Japanische Enzephalitis Grundschema, ab 2 Monaten"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA067",
+        "display": "Japanische Enzephalitis Schnellschema, ab 18 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA068",
+        "display": "Typhus Grundschema, Injektion"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA069",
+        "display": "Typhus Grundschema, Oral"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA070",
+        "display": "Tollwut Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA071",
+        "display": "Tollwut Schnellschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA072",
+        "display": "Tollwut postexpositionelles Schema, Essen 4 Dosen"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA073",
+        "display": "Tollwut postexpositionelles Schema, Essen 5 Dosen"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA074",
+        "display": "Tollwut postexpositionelles Schema, Zagreb"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA075",
+        "display": "Tollwut postexpositionelles Schema, mit Tollwut-Vorimpfung"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA076",
+        "display": "Cholera Grundschema, Erstimpfung 2-6 Jahre"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA078",
+        "display": "Cholera Grundschema, Erstimpfung ab 6 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA079",
+        "display": "Meningokokken B Grundschema, Erstimpfung 10-25 Jahre, Trumenba"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA080",
+        "display": "Kombinationsschema Di-Te-Pert-IPV"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA081",
+        "display": "Kombinationsschema Di-Te-Pert"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA082",
+        "display": "Kombinationsschema Di-Te",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA083",
+        "display": "Tetanus Monokomponente",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA084",
+        "display": "Poliomyelitis Indikationsschema ab dem vollendeten 2. Lebensmonat"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA085",
+        "display": "Hepatitis B Monokomponente Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA086",
+        "display": "SARS-CoV-2 Grundschema, Comirnaty",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA087",
+        "display": "SARS-CoV-2 Grundschema, Spikevax",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA088",
+        "display": "SARS-CoV-2 Grundschema, Vaxzevria",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA089",
+        "display": "SARS-CoV-2 Grundschema, Jcovden",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA090",
+        "display": "SARS-CoV-2 Grundschema, Auslandsimpfung",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA091",
+        "display": "Herpes Zoster Grundschema, nach Zostavax"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA092",
+        "display": "Herpes Zoster Indikationsschema, ab 18 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA093",
+        "display": "MMR Grundschema, ab 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA094",
+        "display": "SARS-CoV-2 Indikationsschema, Comirnaty",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA095",
+        "display": "SARS-CoV-2 Indikationsschema, Spikevax",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA096",
+        "display": "SARS-CoV-2 heterologes Schema (Impfstoffwechsel)",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA097",
+        "display": "Pneumokokken Grundschema, Erstimpfung 2-5 Jahre"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA098",
+        "display": "Pneumokokken Grundschema, ab 60 Jahre"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA099",
+        "display": "SARS-CoV-2 Grundschema, Nuvaxovid",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA100",
+        "display": "Kombinationsschema MMRV, ab 9 Monaten, MMRV - MMRV"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA101",
+        "display": "Kombinationsschema MMRV, ab 12 Monaten, MMRV - MMRV"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA102",
+        "display": "Hepatitis B Monokomponente Schnellschema durch Indikation"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA103",
+        "display": "Hepatitis B Prophylaxe Neugeborener Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA104",
+        "display": "Influenza Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA105",
+        "display": "Kombinationsschema Di-Te-IPV",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA106",
+        "display": "Meningokokken ACWY Indikationsschema, Nimenrix bis 6 Monate"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA107",
+        "display": "Meningokokken ACWY Indikationsschema, Nimenrix ab 6 Monate"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA108",
+        "display": "Meningokokken ACWY Indikationsschema, Nimenrix ab 1 Jahr",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA109",
+        "display": "Meningokokken ACWY Indikationsschema, Menveo ab 2 Jahre"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA110",
+        "display": "SARS-CoV-2 Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA111",
+        "display": "(Affen-)Pocken Indikationsschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA112",
+        "display": "SARS-CoV-2 Grundschema, Valneva",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA113",
+        "display": "Kombinationsschema MMRV, ab 9 Monaten, MMRV - MMR - V",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "inactive": true,
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA114",
+        "display": "Kombinationsschema MMRV, ab 12 Monaten, MMRV - MMR - V",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "DEPRECATED"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA115",
+        "display": "(Affen-)Pocken Indikationsschema, einmalige Impfung"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA116",
+        "display": "Pneumokokken Indikationsschema (erh\u00f6htes Risiko), ab 50 Jahren"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA117",
+        "display": "SARS-CoV-2 Grundschema, Kleinkind"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA118",
+        "display": "Pneumokokken Indikationsschema, Fr\u00fchgeborene"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA119",
+        "display": "Dengue-Fieber Grundschema, 2 Dosen"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA120",
+        "display": "Poliomyelitis Indikationsschema ab dem vollendeten 1. Lebensjahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA121",
+        "display": "RSV Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA122",
+        "display": "SARS-CoV-2 Grundschema"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA123",
+        "display": "Tollwut Schnellschema (WHO)"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA124",
+        "display": "Tollwut Schnellschema (WHO), intradermal"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA125",
+        "display": "Meningokokken ACWY, ab 1 Jahr"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/eimpf-ergaenzung",
+        "version": "2.12.0+20231214",
+        "code": "SCHEMA126",
+        "display": "FSME beschleunigtes konventionelles Schema, Encepur"
+      }
+    ]
+  }
+}

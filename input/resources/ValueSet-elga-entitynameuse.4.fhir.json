@@ -1,0 +1,624 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-entitynameuse",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-entitynameuse",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.27"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-entitynameuse",
+  "title": "ELGA_EntityNameUse",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** A code describing the names type (legal name, artist pseudonym)\n\n**Beschreibung:** Ein Code, der den Typus eines Namens beschreibt (rechtsg\u00fcltiger Name, K\u00fcnstlername)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "ASGN",
+            "display": "assigned",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "zugewiesender Name"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Durch eine Organisation zugewiesener Name, der unterschiedliche vom rechtg\u00fcltigen Namen ist. Gr\u00fcnde sind u.A. der tats\u00e4chliche Name ist unbekannt oder die Vergabe eines Pseudonyms zur Wahrung der Anonymit\u00e4t, aber auch andere 'Alias' Namen"
+              }
+            ]
+          },
+          {
+            "code": "C",
+            "display": "License",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name auf offiziellen Dokumenten"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Name der auf offiziellen Dokumenten (zB F\u00fchrerschein) aufscheint. Nur zu verwenden, wenn unterschiedlich vom Rechtsg\u00fcltigen Name (L)"
+              }
+            ]
+          },
+          {
+            "code": "I",
+            "display": "Indigenous/Tribal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Stammesname"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Stammesname"
+              }
+            ]
+          },
+          {
+            "code": "L",
+            "display": "Legal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Rechtsg\u00fcltiger, offizieller Name"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Rechtsg\u00fcltiger, offizieller Name"
+              }
+            ]
+          },
+          {
+            "code": "OR",
+            "display": "official registry",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name in staatlichen/offiziellen Registrierungsstellen"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Name, der in staatlichen/offiziellen Registrierungsstellen aufscheint."
+              }
+            ]
+          },
+          {
+            "code": "P",
+            "display": "pseudonym",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Pseudonym"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Pseudonym (von der Person selbst gew\u00e4hlt)"
+              }
+            ]
+          },
+          {
+            "code": "A",
+            "display": "Artist/Stage",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "K\u00fcnstlername"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "K\u00fcnstlername"
+              }
+            ]
+          },
+          {
+            "code": "R",
+            "display": "Religious",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Spiritueller Name"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Spiritueller Name (zB im Gebrauch einer Religionsgemeinschaft wie 'Schwester Maria')"
+              }
+            ]
+          },
+          {
+            "code": "SRCH",
+            "display": "search v:HL7SearchUse",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Eine Namensschreibung, die Suchalgorithmen unterst\u00fctzt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Eine Namensschreibung, die Suchalgorithmen unterst\u00fctzt (zB 'Guenter' statt 'G\u00fcnther')"
+              }
+            ]
+          },
+          {
+            "code": "PHON",
+            "display": "phonetic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name in phonetischer Schreibweise"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Ein Name in phonetischer Schreibweise"
+              }
+            ]
+          },
+          {
+            "code": "SNDX",
+            "display": "Soundex ",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name in Schreibweise gem\u00e4\u00df Soundex-Algorithmus"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Ein Name in Schreibweise gem\u00e4\u00df Soundex-Algorithmus"
+              }
+            ]
+          },
+          {
+            "code": "_NameRepresentationUse",
+            "display": "NameRepresentationUse",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Verschiedene Schreibweisen eines Namens"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Verschiedene Schreibweisen oder Darstellungen eines Namens, vorwiegend bei der Transkription aus anderen Alphabeten"
+              }
+            ]
+          },
+          {
+            "code": "ABC",
+            "display": "Alphabetic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Alphabetische Transkription"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Alphabetische Transkription (zB Japanisch: R?maji)"
+              }
+            ]
+          },
+          {
+            "code": "IDE",
+            "display": "Ideographic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Logografische Darstellung"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Logografische Darstellung (Chinesische oder Japanische (Kanji) Schriftzeichen)"
+              }
+            ]
+          },
+          {
+            "code": "SYL",
+            "display": "Syllabic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Silbenalphabetische Transkription"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Silbenalphabetische Transkription (zB Japanische Kana, Koreanische Hangul)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:52:09Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "ASGN",
+        "display": "assigned",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "zugewiesender Name"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Durch eine Organisation zugewiesener Name, der unterschiedliche vom rechtg\u00fcltigen Namen ist. Gr\u00fcnde sind u.A. der tats\u00e4chliche Name ist unbekannt oder die Vergabe eines Pseudonyms zur Wahrung der Anonymit\u00e4t, aber auch andere 'Alias' Namen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "C",
+        "display": "License",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Name auf offiziellen Dokumenten"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Name der auf offiziellen Dokumenten (zB F\u00fchrerschein) aufscheint. Nur zu verwenden, wenn unterschiedlich vom Rechtsg\u00fcltigen Name (L)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "I",
+        "display": "Indigenous/Tribal",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Stammesname"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Stammesname"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "L",
+        "display": "Legal",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Rechtsg\u00fcltiger, offizieller Name"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Rechtsg\u00fcltiger, offizieller Name"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "OR",
+            "display": "official registry",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name in staatlichen/offiziellen Registrierungsstellen"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Name, der in staatlichen/offiziellen Registrierungsstellen aufscheint."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "P",
+        "display": "pseudonym",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Pseudonym"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Pseudonym (von der Person selbst gew\u00e4hlt)"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "A",
+            "display": "Artist/Stage",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "K\u00fcnstlername"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "K\u00fcnstlername"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "R",
+        "display": "Religious",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Spiritueller Name"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Spiritueller Name (zB im Gebrauch einer Religionsgemeinschaft wie 'Schwester Maria')"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "version": "2.1.0",
+        "code": "SRCH",
+        "display": "search v:HL7SearchUse",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Eine Namensschreibung, die Suchalgorithmen unterst\u00fctzt"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Eine Namensschreibung, die Suchalgorithmen unterst\u00fctzt (zB 'Guenter' statt 'G\u00fcnther')"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "PHON",
+            "display": "phonetic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name in phonetischer Schreibweise"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Ein Name in phonetischer Schreibweise"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "SNDX",
+            "display": "Soundex ",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Name in Schreibweise gem\u00e4\u00df Soundex-Algorithmus"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Ein Name in Schreibweise gem\u00e4\u00df Soundex-Algorithmus"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+        "abstract": true,
+        "version": "2.1.0",
+        "code": "_NameRepresentationUse",
+        "display": "NameRepresentationUse",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Verschiedene Schreibweisen eines Namens"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Verschiedene Schreibweisen oder Darstellungen eines Namens, vorwiegend bei der Transkription aus anderen Alphabeten"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "ABC",
+            "display": "Alphabetic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Alphabetische Transkription"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Alphabetische Transkription (zB Japanisch: R?maji)"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "IDE",
+            "display": "Ideographic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Logografische Darstellung"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Logografische Darstellung (Chinesische oder Japanische (Kanji) Schriftzeichen)"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": "2.1.0",
+            "code": "SYL",
+            "display": "Syllabic",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Silbenalphabetische Transkription"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Silbenalphabetische Transkription (zB Japanische Kana, Koreanische Hangul)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

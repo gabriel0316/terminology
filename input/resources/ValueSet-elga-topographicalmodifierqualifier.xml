@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="elga-topographicalmodifierqualifier"/>
+    <url value="https://termgit.elga.gv.at/ValueSet/elga-topographicalmodifierqualifier"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.40.0.34.10.212"/>
+    </identifier>
+    <version value="1.0.0+20200512"/>
+    <name value="elga-topographicalmodifierqualifier"/>
+    <title value="ELGA_TopographicalModifierQualifier"/>
+    <status value="active"/>
+    <date value="2020-05-12"/>
+    <description value="**Description:** List of all possible topographical modifier qualifier codes in Austria.&#10;&#10;**Beschreibung:** Liste aller möglichen topographischen Bestimmungskennzeichnungs-Codes in Österreich."/>
+    <compose>
+        <include>
+            <!-- 2.16.840.1.113883.6.96 copied from https://mio.kbv.de/pages/viewpage.action?pageId=164992015 -->
+            <system value="http://snomed.info/sct"/>
+            <!-- <version value="http://snomed.info/sct/900000000000207008/version/20220331"/> -->
+            <filter>
+                <property value="concept"/>
+                <op value="is-a"/>
+                <value value="106233006"/>
+            </filter>
+        </include>
+    </compose>
+</ValueSet>

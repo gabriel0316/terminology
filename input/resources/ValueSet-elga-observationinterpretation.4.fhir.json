@@ -1,0 +1,1684 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-observationinterpretation",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-observationinterpretation",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.13"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-observationinterpretation",
+  "title": "ELGA_ObservationInterpretation",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Classification of a result from a measurement (e.g. laboratory parameter) or observation\n\n**Beschreibung:** Klassifiziert das Ergebnis einer Messung (zB eines Laborwertes) oder einer Beobachtung",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "_ObservationInterpretationSusceptibility",
+            "display": "ObservationInterpretationSusceptibility",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Antibiogramm-Ergebnisinterpretation "
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Gruppierung der Antibiogramm-Ergebnisinterpretation "
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "(wird nicht verwendet)"
+              }
+            ]
+          },
+          {
+            "code": "I",
+            "display": "Intermediate",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Intermedi\u00e4r"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Antibiogramm: Intermedi\u00e4r"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "I"
+              }
+            ]
+          },
+          {
+            "code": "R",
+            "display": "Resistant",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Resistent"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Antibiogramm: Resistent"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "R"
+              }
+            ]
+          },
+          {
+            "code": "S",
+            "display": "Susceptible",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Sensibel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Antibiogramm: Sensibel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "S"
+              }
+            ]
+          },
+          {
+            "code": "_ObservationInterpretationNormality",
+            "display": "ObservationInterpretationNormality",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ergebnisinterpretation "
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Gruppierung der Ergebnisinterpretation "
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "(wird nicht verwendet)"
+              }
+            ]
+          },
+          {
+            "code": "N",
+            "display": "Normal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Normalbereich"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert im Referenzbereich (Normalbereich)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "(leer lassen)"
+              }
+            ]
+          },
+          {
+            "code": "H",
+            "display": "High",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "oberhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert oberhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "+"
+              }
+            ]
+          },
+          {
+            "code": "HH",
+            "display": "Criticallyhigh",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "oberhalb des Alarmbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert oberhalb des Alarmbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "++"
+              }
+            ]
+          },
+          {
+            "code": "L",
+            "display": "Low",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "unterhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert unterhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "-"
+              }
+            ]
+          },
+          {
+            "code": "LL",
+            "display": "Criticallylow",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "unterhalb des Alarmbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert unterhalb des Alarmbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "--"
+              }
+            ]
+          },
+          {
+            "code": "A",
+            "display": "Abnormal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "nicht im Referenzbereich"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert nicht im Referenzbereich (f\u00fcr ordinale oder nominale Werte)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "*"
+              }
+            ]
+          },
+          {
+            "code": "AA",
+            "display": "Criticallyabnormal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "im Alarmbereich"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert im Alarmbereich (f\u00fcr ordinale oder nominale Werte)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "**"
+              }
+            ]
+          },
+          {
+            "code": "U",
+            "display": "Significantchangeup",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "gestiegen"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist signifikant gegen\u00fcber der letzten Messung gestiegen (Verwendung zb f\u00fcr Deltacheck)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "d+"
+              }
+            ]
+          },
+          {
+            "code": "D",
+            "display": "Significantchangedown",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "gesunken"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist signifikant gegen\u00fcber der letzten Messung gefallen  (Verwendung zb f\u00fcr Deltacheck)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "d-"
+              }
+            ]
+          },
+          {
+            "code": "_ObservationInterpretationExceptions",
+            "display": "ObservationInterpretationExceptions",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ergebnisinterpretation f\u00fcr Ausnahmeergebnisse"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Gruppierung der Ergebnisinterpretation f\u00fcr Ausnahmeergebnisse"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "(wird nicht verwendet)"
+              }
+            ]
+          },
+          {
+            "code": "EX",
+            "display": "outsidethreshold",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "au\u00dferhalb des definierten Messprotokolls"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert liegt au\u00dferhalb des definierten Messprotokolls (Code f\u00fcr die Interpretation von Ausname-Situationen: Optional zur Verwendung)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "EX"
+              }
+            ]
+          },
+          {
+            "code": ">",
+            "display": "Offscalehigh",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "h\u00f6her als der Messbereich des Messger\u00e4ts"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist h\u00f6her als der Messbereich des Messger\u00e4ts (Code f\u00fcr die Interpretation von Ausname-Situationen: Optional zur Verwendung)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": ">"
+              }
+            ]
+          },
+          {
+            "code": "<",
+            "display": "Offscalelow",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "kleiner als der Messbereich des Messger\u00e4ts"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist kleiner als der Messbereich des Messger\u00e4ts (Code f\u00fcr die Interpretation von Ausname-Situationen: Optional zur Verwendung)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "<"
+              }
+            ]
+          },
+          {
+            "code": "_ObservationInterpretationDetection",
+            "display": "ObservationInterpretationDetection",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Ergebnisinterpretation"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Gruppierung der Ergebnisinterpretation f\u00fcr das Vorhandensein oder die Abwesenheit eines Analyts in einem Test"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "(wird nicht verwendet)"
+              }
+            ]
+          },
+          {
+            "code": "IND",
+            "display": "Indeterminate",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Unbestimmt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Das Ergebnis erlaubt keine Aussage, ob der Analyt vorhanden ist oder nicht."
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Unbestimmt"
+              }
+            ]
+          },
+          {
+            "code": "NEG",
+            "display": "Negative",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Negativ"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Der Analyt wird als nicht vorhanden interpretiert"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Neg."
+              }
+            ]
+          },
+          {
+            "code": "POS",
+            "display": "Positive",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Positiv"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Der Analyt wird als vorhanden interpretiert"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Pos."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-ergaenzungsliste",
+        "version": "1.0.0+20230131",
+        "concept": [
+          {
+            "code": "Refna",
+            "display": "Referenzbereich nicht anwendbar",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Erg\u00e4nzung der ObservationInterpretation Codes f\u00fcr den Fall, dass ein Referenzbereich nicht anwendbar ist"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+        "version": "1.0.0+20230131",
+        "concept": [
+          {
+            "code": "_RAST",
+            "display": "RAST"
+          },
+          {
+            "code": "RAST0",
+            "display": "< 0.35  kU/l (absent or undetectable allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "negativ, keine spezifischen IgE-Antik\u00f6rper nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "< 0.35  kU/l (absent or undetectable allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 0"
+              }
+            ]
+          },
+          {
+            "code": "RAST1",
+            "display": "0.35 - 0.69  kU/l (low level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "schwach positiv, geringe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "0.35 - 0.69  kU/l (low level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 1"
+              }
+            ]
+          },
+          {
+            "code": "RAST2",
+            "display": "0.70 - 3.49  kU/l (moderate level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "positiv"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "0.70 - 3.49  kU/l (moderate level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 2"
+              }
+            ]
+          },
+          {
+            "code": "RAST3",
+            "display": "3.50 - 17.49  kU/l (high level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "deutlich positiv"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "3.50 - 17.49  kU/l (high level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 3"
+              }
+            ]
+          },
+          {
+            "code": "RAST4",
+            "display": "17.50 - 49.99  kU/l (very high level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "stark positiv, hohe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "17.50 - 49.99  kU/l (very high level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 4"
+              }
+            ]
+          },
+          {
+            "code": "RAST5",
+            "display": "50.00 - 100.00  kU/l (ultra high level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "sehr stark positiv, sehr hohe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "50.00 - 100.00  kU/l (ultra high level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 5"
+              }
+            ]
+          },
+          {
+            "code": "RAST6",
+            "display": "> 100.00  kU/l (extremely high level of allergen specific ige)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "hochgradig positiv, extrem hohe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "> 100.00  kU/l (extremely high level of allergen specific ige)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:51:57Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+        "abstract": true,
+        "version": "2.1.0",
+        "code": "_ObservationInterpretationSusceptibility",
+        "display": "ObservationInterpretationSusceptibility",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Antibiogramm-Ergebnisinterpretation "
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Gruppierung der Antibiogramm-Ergebnisinterpretation "
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "(wird nicht verwendet)"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "I",
+            "display": "Intermediate",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Intermedi\u00e4r"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Antibiogramm: Intermedi\u00e4r"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "I"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "R",
+            "display": "Resistant",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Resistent"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Antibiogramm: Resistent"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "R"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "S",
+            "display": "Susceptible",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Sensibel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Antibiogramm: Sensibel"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "S"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+        "abstract": true,
+        "version": "2.1.0",
+        "code": "_ObservationInterpretationNormality",
+        "display": "ObservationInterpretationNormality",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ergebnisinterpretation "
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Gruppierung der Ergebnisinterpretation "
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "(wird nicht verwendet)"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "N",
+            "display": "Normal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Normalbereich"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert im Referenzbereich (Normalbereich)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "(leer lassen)"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "H",
+            "display": "High",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "oberhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert oberhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "+"
+              }
+            ],
+            "contains": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "version": "2.1.0",
+                "code": "HH",
+                "display": "Criticallyhigh",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "oberhalb des Alarmbereiches"
+                  },
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "concept_beschreibung",
+                      "display": "concept_beschreibung"
+                    },
+                    "value": "Wert oberhalb des Alarmbereiches"
+                  },
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hinweise",
+                      "display": "hinweise"
+                    },
+                    "value": "++"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "L",
+            "display": "Low",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "unterhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert unterhalb des Referenzbereiches"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "-"
+              }
+            ],
+            "contains": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "version": "2.1.0",
+                "code": "LL",
+                "display": "Criticallylow",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "unterhalb des Alarmbereiches"
+                  },
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "concept_beschreibung",
+                      "display": "concept_beschreibung"
+                    },
+                    "value": "Wert unterhalb des Alarmbereiches"
+                  },
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hinweise",
+                      "display": "hinweise"
+                    },
+                    "value": "--"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "A",
+            "display": "Abnormal",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "nicht im Referenzbereich"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert nicht im Referenzbereich (f\u00fcr ordinale oder nominale Werte)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "*"
+              }
+            ],
+            "contains": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "version": "2.1.0",
+                "code": "AA",
+                "display": "Criticallyabnormal",
+                "designation": [
+                  {
+                    "language": "de-AT",
+                    "value": "im Alarmbereich"
+                  },
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "concept_beschreibung",
+                      "display": "concept_beschreibung"
+                    },
+                    "value": "Wert im Alarmbereich (f\u00fcr ordinale oder nominale Werte)"
+                  },
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hinweise",
+                      "display": "hinweise"
+                    },
+                    "value": "**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "U",
+            "display": "Significantchangeup",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "gestiegen"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist signifikant gegen\u00fcber der letzten Messung gestiegen (Verwendung zb f\u00fcr Deltacheck)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "d+"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "D",
+            "display": "Significantchangedown",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "gesunken"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist signifikant gegen\u00fcber der letzten Messung gefallen  (Verwendung zb f\u00fcr Deltacheck)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "d-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+        "abstract": true,
+        "version": "2.1.0",
+        "code": "_ObservationInterpretationExceptions",
+        "display": "ObservationInterpretationExceptions",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ergebnisinterpretation f\u00fcr Ausnahmeergebnisse"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Gruppierung der Ergebnisinterpretation f\u00fcr Ausnahmeergebnisse"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "(wird nicht verwendet)"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "EX",
+            "display": "outsidethreshold",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "au\u00dferhalb des definierten Messprotokolls"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert liegt au\u00dferhalb des definierten Messprotokolls (Code f\u00fcr die Interpretation von Ausname-Situationen: Optional zur Verwendung)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "EX"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": ">",
+            "display": "Offscalehigh",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "h\u00f6her als der Messbereich des Messger\u00e4ts"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist h\u00f6her als der Messbereich des Messger\u00e4ts (Code f\u00fcr die Interpretation von Ausname-Situationen: Optional zur Verwendung)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": ">"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "<",
+            "display": "Offscalelow",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "kleiner als der Messbereich des Messger\u00e4ts"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Wert ist kleiner als der Messbereich des Messger\u00e4ts (Code f\u00fcr die Interpretation von Ausname-Situationen: Optional zur Verwendung)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "<"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-ergaenzungsliste",
+            "version": "1.0.0+20230131",
+            "code": "Refna",
+            "display": "Referenzbereich nicht anwendbar",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Erg\u00e4nzung der ObservationInterpretation Codes f\u00fcr den Fall, dass ein Referenzbereich nicht anwendbar ist"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+        "abstract": true,
+        "version": "2.1.0",
+        "code": "_ObservationInterpretationDetection",
+        "display": "ObservationInterpretationDetection",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Ergebnisinterpretation"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Gruppierung der Ergebnisinterpretation f\u00fcr das Vorhandensein oder die Abwesenheit eines Analyts in einem Test"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "hinweise",
+              "display": "hinweise"
+            },
+            "value": "(wird nicht verwendet)"
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "IND",
+            "display": "Indeterminate",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Unbestimmt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Das Ergebnis erlaubt keine Aussage, ob der Analyt vorhanden ist oder nicht."
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Unbestimmt"
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "NEG",
+            "display": "Negative",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Negativ"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Der Analyt wird als nicht vorhanden interpretiert"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Neg."
+              }
+            ]
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": "2.1.0",
+            "code": "POS",
+            "display": "Positive",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Positiv"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Der Analyt wird als vorhanden interpretiert"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "Pos."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+        "abstract": true,
+        "version": "1.0.0+20230131",
+        "code": "_RAST",
+        "display": "RAST",
+        "contains": [
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST0",
+            "display": "< 0.35  kU/l (absent or undetectable allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "negativ, keine spezifischen IgE-Antik\u00f6rper nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "< 0.35  kU/l (absent or undetectable allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 0"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST1",
+            "display": "0.35 - 0.69  kU/l (low level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "schwach positiv, geringe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "0.35 - 0.69  kU/l (low level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 1"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST2",
+            "display": "0.70 - 3.49  kU/l (moderate level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "positiv"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "0.70 - 3.49  kU/l (moderate level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 2"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST3",
+            "display": "3.50 - 17.49  kU/l (high level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "deutlich positiv"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "3.50 - 17.49  kU/l (high level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 3"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST4",
+            "display": "17.50 - 49.99  kU/l (very high level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "stark positiv, hohe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "17.50 - 49.99  kU/l (very high level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 4"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST5",
+            "display": "50.00 - 100.00  kU/l (ultra high level of allergen specific IgE)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "sehr stark positiv, sehr hohe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "50.00 - 100.00  kU/l (ultra high level of allergen specific IgE)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 5"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/rast-klassen",
+            "version": "1.0.0+20230131",
+            "code": "RAST6",
+            "display": "> 100.00  kU/l (extremely high level of allergen specific ige)",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "hochgradig positiv, extrem hohe Konzentration spezifischer IgE-AK nachweisbar"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "> 100.00  kU/l (extremely high level of allergen specific ige)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hinweise",
+                  "display": "hinweise"
+                },
+                "value": "RAST 6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

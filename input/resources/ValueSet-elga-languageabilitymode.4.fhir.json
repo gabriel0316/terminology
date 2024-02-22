@@ -1,0 +1,133 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-languageabilitymode",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-languageabilitymode",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.175"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-languageabilitymode",
+  "title": "ELGA_LanguageAbilityMode",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org/documentcenter/public_temp_ED0BB625-1C23-BA17-0CE4EA7EB5B49D1F/standards/vocabulary/vocabulary_tables/infrastructure/vocabulary/LanguageAbilityMode.html",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/documentcenter/public_temp_ED0BB625-1C23-BA17-0CE4EA7EB5B49D1F/standards/vocabulary/vocabulary_tables/infrastructure/vocabulary/LanguageAbilityMode.html"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** List of codes representing the method of expression of the language\n\n**Beschreibung:** Codes zur Angabe der Sprachf\u00e4higkeit von Patienten (Methode zum Ausdruck von Spache)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "ESP",
+            "display": "Expressed spoken",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "spricht"
+              }
+            ]
+          },
+          {
+            "code": "EWR",
+            "display": "Expressed written",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "schreibt"
+              }
+            ]
+          },
+          {
+            "code": "RSP",
+            "display": "Received spoken",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "versteht gesprochen"
+              }
+            ]
+          },
+          {
+            "code": "RWR",
+            "display": "Received written",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "versteht geschrieben"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:51:44Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "version": "2.1.0",
+        "code": "ESP",
+        "display": "Expressed spoken",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "spricht"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "version": "2.1.0",
+        "code": "EWR",
+        "display": "Expressed written",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "schreibt"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "version": "2.1.0",
+        "code": "RSP",
+        "display": "Received spoken",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "versteht gesprochen"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "version": "2.1.0",
+        "code": "RWR",
+        "display": "Received written",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "versteht geschrieben"
+          }
+        ]
+      }
+    ]
+  }
+}

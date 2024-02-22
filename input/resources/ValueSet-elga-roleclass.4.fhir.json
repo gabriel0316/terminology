@@ -1,0 +1,121 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-roleclass",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-roleclass",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.19"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-roleclass",
+  "title": "ELGA_RoleClass",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Represents an association or relationshsip between two entities\n\n**Beschreibung:** Unterscheidung zwischen Notfallkontakt und Angeh\u00f6rigem",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version": "3.1.0",
+        "concept": [
+          {
+            "code": "ECON",
+            "display": "emergency contact",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Notfallkontakt"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An entity to be contacted in the event of an emergency."
+              }
+            ]
+          },
+          {
+            "code": "NOK",
+            "display": "next of kin",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Angeh\u00f6rige(r)"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "An individual designated for notification as the next of kin for a given entity."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:52:12Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version": "3.1.0",
+        "code": "ECON",
+        "display": "emergency contact",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Notfallkontakt"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An entity to be contacted in the event of an emergency."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version": "3.1.0",
+        "code": "NOK",
+        "display": "next of kin",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Angeh\u00f6rige(r)"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "An individual designated for notification as the next of kin for a given entity."
+          }
+        ]
+      }
+    ]
+  }
+}

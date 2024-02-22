@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ems-impfstatus",
+  "url": "https://termgit.elga.gv.at/ValueSet/ems-impfstatus",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.6.0.10.24"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "ems-impfstatus",
+  "title": "EMS_Impfstatus",
+  "status": "active",
+  "date": "2023-06-30",
+  "description": "**Description:** Values for coding of the vacination status. Contains information protected by copyright of SNOMED International. Any use of SNOMED CT in Austria requires a valid affiliate license or sublicense. The corresponding license is free of charge, provided that the use only takes place in Austria and fulfills the conditions of the Affiliate License Agreement. Affiliate licenses can be requested directly from the respective NRC via the [Member Licensing and Distribution Service](https://mlds.ihtsdotools.org/#/landing/AT?lang=de) (MLDS).\n\n**Beschreibung:** Valueset f\u00fcr die Codierung des Impfstatus. Enth\u00e4lt durch SNOMED International urheberrechtlich gesch\u00fctzte Information. Jede Verwendung von SNOMED CT in \u00d6sterreich erfordert eine aufrechte Affiliate Lizenz oder eine Sublizenz. Die entsprechende Lizenz ist kostenlos, vorausgesetzt die Verwendung findet nur in \u00d6sterreich statt und erf\u00fcllt die Bedingungen des Affiliate License Agreements. Affiliate Lizenzen k\u00f6nnen \u00fcber das [Mitglieder-Lizenzierungs- und Distributions-Service](https://mlds.ihtsdotools.org/#/landing/AT?lang=de) (MLDS) direkt beim jeweiligen NRC beantragt werden.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/snomed-ct-auszug",
+        "version": "1.0.0+20230131",
+        "concept": [
+          {
+            "code": "789540001",
+            "display": "Immunization overdue"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "version": "8.0.0",
+        "concept": [
+          {
+            "code": "IMMUNIZ",
+            "display": "Immunization"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:51:48Z",
+    "contains": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/snomed-ct-auszug",
+        "version": "1.0.0+20230131",
+        "code": "789540001",
+        "display": "Immunization overdue"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "version": "8.0.0",
+        "code": "IMMUNIZ",
+        "display": "Immunization"
+      }
+    ]
+  }
+}

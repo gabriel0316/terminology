@@ -1,0 +1,95 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hl7-administrative-sex",
+  "url": "https://termgit.elga.gv.at/CodeSystem/hl7-administrative-sex",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.12.1"
+    }
+  ],
+  "version": "1.0.0+20230131",
+  "name": "hl7-administrative-sex",
+  "title": "HL7 Administrative Sex",
+  "status": "retired",
+  "date": "2023-06-30",
+  "content": "complete",
+  "count": 6,
+  "property": [
+    {
+      "code": "hints",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "A",
+      "display": "Ambiguous",
+      "designation": [
+        {
+          "language": "de-AT",
+          "value": "Mehrdeutig"
+        }
+      ],
+      "property": [
+        {
+          "code": "hints",
+          "valueString": "nur f\u00fcr Tiermedizin"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Female",
+      "designation": [
+        {
+          "language": "de-AT",
+          "value": "Weiblich"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Male",
+      "designation": [
+        {
+          "language": "de-AT",
+          "value": "M\u00e4nnlich"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Not applicable",
+      "definition": "nur f\u00fcr HL7 V2.x",
+      "designation": [
+        {
+          "language": "de-AT",
+          "value": "Offen"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "nur f\u00fcr HL7 V2.x",
+      "designation": [
+        {
+          "language": "de-AT",
+          "value": "Divers"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "de-AT",
+          "value": "Unbekannt"
+        }
+      ]
+    }
+  ]
+}

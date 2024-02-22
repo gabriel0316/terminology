@@ -1,0 +1,133 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-proficiencylevelcode",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-proficiencylevelcode",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.174"
+    }
+  ],
+  "version": "1.1.0+20230630",
+  "name": "elga-proficiencylevelcode",
+  "title": "ELGA_ProficiencyLevelCode",
+  "status": "active",
+  "date": "2023-06-30",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org/documentcenter/public_temp_C0F0C5A1-1C23-BA17-0C878A83AC28B5A7/standards/vocabulary/vocabulary_tables/infrastructure/vocabulary/LanguageAbilityProficiency.html",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/documentcenter/public_temp_C0F0C5A1-1C23-BA17-0C878A83AC28B5A7/standards/vocabulary/vocabulary_tables/infrastructure/vocabulary/LanguageAbilityProficiency.html"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** List of codes representing the level of proficiency in a language.\n\n**Beschreibung:** Codes zur Angabe der Sprachf\u00e4higkeit von Patienten (Sprachkenntnisse)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityProficiency",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "E",
+            "display": "Excellent",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "ausgezeichnet"
+              }
+            ]
+          },
+          {
+            "code": "F",
+            "display": "Fair",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "ausreichend"
+              }
+            ]
+          },
+          {
+            "code": "G",
+            "display": "Good",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "gut"
+              }
+            ]
+          },
+          {
+            "code": "P",
+            "display": "Poor",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "mangelhaft"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-12-19T13:52:08Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityProficiency",
+        "version": "2.1.0",
+        "code": "E",
+        "display": "Excellent",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "ausgezeichnet"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityProficiency",
+        "version": "2.1.0",
+        "code": "F",
+        "display": "Fair",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "ausreichend"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityProficiency",
+        "version": "2.1.0",
+        "code": "G",
+        "display": "Good",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "gut"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityProficiency",
+        "version": "2.1.0",
+        "code": "P",
+        "display": "Poor",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "mangelhaft"
+          }
+        ]
+      }
+    ]
+  }
+}

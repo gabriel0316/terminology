@@ -1,0 +1,431 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-urlscheme",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-urlscheme",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.25"
+    }
+  ],
+  "version": "1.1.1+20240129",
+  "name": "elga-urlscheme",
+  "title": "ELGA_URLScheme",
+  "status": "active",
+  "date": "2024-01-29",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "http://www.hl7.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Set of codes describing the Universal Resource Locator. This codes are used to distinguish between different types of telecommunication addresses.\n\n**Beschreibung:** Das ValueSet enth\u00e4lt Codes zur Beschreibung von Universal Resource Locators (System zur Beschreibung der Lage der Ressourcen). Dient zur Unterscheidung von Adresstypen.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "concept": [
+          {
+            "code": "fax",
+            "display": "Fax",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A telephone number served by a fax device [draft-antti-telephony-url-11.txt]."
+              }
+            ]
+          },
+          {
+            "code": "file",
+            "display": "File",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Datei"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Host-specific local file names [RCF 1738]. Note that the file scheme works only for local files. There is little use for exchanging local file names between systems, since the receiving system likely will not be able to access the file."
+              }
+            ]
+          },
+          {
+            "code": "ftp",
+            "display": "FTP",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The File Transfer Protocol (FTP) [RFC 1738]."
+              }
+            ]
+          },
+          {
+            "code": "http",
+            "display": "HTTP",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "www"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Hypertext Transfer Protocol [RFC 2068]."
+              }
+            ]
+          },
+          {
+            "code": "mailto",
+            "display": "Mailto",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Email"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Electronic mail address [RFC 2368]."
+              }
+            ]
+          },
+          {
+            "code": "mllp",
+            "display": "HL7 Minimal Lower Layer Protocol",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "MLLP"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "The traditional HL7 Minimal Lower Layer Protocol. The URL has the form of a common IP URL e.g., mllp://[host]:[port]/ with [host] being the IP address or DNS hostname and [port] being a port number on which the MLLP protocol is served."
+              }
+            ]
+          },
+          {
+            "code": "modem",
+            "display": "Modem",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A telephone number served by a modem device [draft-antti-telephony-url-11.txt]."
+              }
+            ]
+          },
+          {
+            "code": "nfs",
+            "display": "NFS",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Network File System protocol [RFC 2224]. Some sites use NFS servers to share data files."
+              }
+            ]
+          },
+          {
+            "code": "tel",
+            "display": "Telephone",
+            "designation": [
+              {
+                "language": "de-AT",
+                "value": "Telefon"
+              },
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "A voice telephone number [draft-antti-telephony-url-11.txt]."
+              }
+            ]
+          },
+          {
+            "code": "telnet",
+            "display": "Telnet",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Reference to interactive sessions [RFC 1738]. Some sites, (e.g., laboratories) have TTY based remote query sessions that can be accessed through telnet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-urlschemeergaenzung",
+        "version": "1.0.1+20240129",
+        "concept": [
+          {
+            "code": "me",
+            "display": "ME-Nummer",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Adressierungsmerkmal f\u00fcr gerichteten elektronischen Befundversand in \u00d6sterreich. Erweiterung des Standardvokabulars von CDA."
+              }
+            ]
+          },
+          {
+            "code": "https",
+            "display": "HTTPS"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2024-01-30T15:56:20Z",
+    "contains": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "fax",
+        "display": "Fax",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A telephone number served by a fax device [draft-antti-telephony-url-11.txt]."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "file",
+        "display": "File",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Datei"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Host-specific local file names [RCF 1738]. Note that the file scheme works only for local files. There is little use for exchanging local file names between systems, since the receiving system likely will not be able to access the file."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "ftp",
+        "display": "FTP",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The File Transfer Protocol (FTP) [RFC 1738]."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "http",
+        "display": "HTTP",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "www"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Hypertext Transfer Protocol [RFC 2068]."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "mailto",
+        "display": "Mailto",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Email"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Electronic mail address [RFC 2368]."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "mllp",
+        "display": "HL7 Minimal Lower Layer Protocol",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "MLLP"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "The traditional HL7 Minimal Lower Layer Protocol. The URL has the form of a common IP URL e.g., mllp://[host]:[port]/ with [host] being the IP address or DNS hostname and [port] being a port number on which the MLLP protocol is served."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "modem",
+        "display": "Modem",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A telephone number served by a modem device [draft-antti-telephony-url-11.txt]."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "nfs",
+        "display": "NFS",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Network File System protocol [RFC 2224]. Some sites use NFS servers to share data files."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "tel",
+        "display": "Telephone",
+        "designation": [
+          {
+            "language": "de-AT",
+            "value": "Telefon"
+          },
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "A voice telephone number [draft-antti-telephony-url-11.txt]."
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-URLScheme",
+        "version": "2.1.0",
+        "code": "telnet",
+        "display": "Telnet",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Reference to interactive sessions [RFC 1738]. Some sites, (e.g., laboratories) have TTY based remote query sessions that can be accessed through telnet."
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-urlschemeergaenzung",
+        "version": "1.0.1+20240129",
+        "code": "me",
+        "display": "ME-Nummer",
+        "designation": [
+          {
+            "use": {
+              "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+              "code": "concept_beschreibung",
+              "display": "concept_beschreibung"
+            },
+            "value": "Adressierungsmerkmal f\u00fcr gerichteten elektronischen Befundversand in \u00d6sterreich. Erweiterung des Standardvokabulars von CDA."
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-urlschemeergaenzung",
+        "version": "1.0.1+20240129",
+        "code": "https",
+        "display": "HTTPS"
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hl7-null-flavor",
+  "url": "https://termgit.elga.gv.at/CodeSystem/hl7-null-flavor",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.5.1008"
+    }
+  ],
+  "version": "1.0.0+20230131",
+  "name": "hl7-null-flavor",
+  "title": "HL7 Null Flavor",
+  "status": "retired",
+  "date": "2023-06-30",
+  "content": "complete",
+  "count": 14,
+  "property": [
+    {
+      "code": "child",
+      "type": "code"
+    },
+    {
+      "code": "parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "NI",
+      "display": "NoInformation",
+      "property": [
+        {
+          "code": "child",
+          "valueCode": "INV"
+        },
+        {
+          "code": "child",
+          "valueCode": "MSK"
+        },
+        {
+          "code": "child",
+          "valueCode": "NA"
+        },
+        {
+          "code": "child",
+          "valueCode": "UNK"
+        }
+      ]
+    },
+    {
+      "code": "INV",
+      "display": "invalid",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "NI"
+        },
+        {
+          "code": "child",
+          "valueCode": "DER"
+        },
+        {
+          "code": "child",
+          "valueCode": "OTH"
+        }
+      ]
+    },
+    {
+      "code": "DER",
+      "display": "derived",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "INV"
+        }
+      ]
+    },
+    {
+      "code": "OTH",
+      "display": "Other",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "INV"
+        },
+        {
+          "code": "child",
+          "valueCode": "NINF"
+        },
+        {
+          "code": "child",
+          "valueCode": "PINF"
+        }
+      ]
+    },
+    {
+      "code": "NINF",
+      "display": "Negative infinity",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "OTH"
+        }
+      ]
+    },
+    {
+      "code": "PINF",
+      "display": "Positive infinity",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "OTH"
+        }
+      ]
+    },
+    {
+      "code": "MSK",
+      "display": "Masked",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "NI"
+        }
+      ]
+    },
+    {
+      "code": "NA",
+      "display": "Not applicable",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "NI"
+        }
+      ]
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "NI"
+        },
+        {
+          "code": "child",
+          "valueCode": "ASKU"
+        },
+        {
+          "code": "child",
+          "valueCode": "NASK"
+        },
+        {
+          "code": "child",
+          "valueCode": "QS"
+        },
+        {
+          "code": "child",
+          "valueCode": "TRC"
+        }
+      ]
+    },
+    {
+      "code": "ASKU",
+      "display": "Asked, but unknown",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "UNK"
+        },
+        {
+          "code": "child",
+          "valueCode": "NAV"
+        }
+      ]
+    },
+    {
+      "code": "NAV",
+      "display": "Temporarily unavailable",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "ASKU"
+        }
+      ]
+    },
+    {
+      "code": "NASK",
+      "display": "Not asked",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "UNK"
+        }
+      ]
+    },
+    {
+      "code": "QS",
+      "display": "Sufficient Quantity",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "UNK"
+        }
+      ]
+    },
+    {
+      "code": "TRC",
+      "display": "Trace",
+      "property": [
+        {
+          "code": "parent",
+          "valueCode": "UNK"
+        }
+      ]
+    }
+  ]
+}
