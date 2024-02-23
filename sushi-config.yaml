@@ -12,7 +12,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: gabriel0316.terminologies
 canonical: https://termgit.elga.gv.at
-version: 2.6.0+20240206
+version: 2.6.0
 name: termgit
 title: Österreichischer e-Health-Terminologie-Browser
 status: active
