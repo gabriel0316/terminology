@@ -1,0 +1,75 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7-at-administrativegender-fhir-extension",
+  "url": "https://termgit.elga.gv.at/ValueSet/hl7-at-administrativegender-fhir-extension",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.6.0.10.83"
+    }
+  ],
+  "version": "1.0.0+20231113",
+  "name": "hl7-at-administrativegender-fhir-extension",
+  "title": "HL7-at_AdministrativeGender-FHIR-Extension",
+  "status": "active",
+  "date": "2023-11-13",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "HL7 Austria",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.hl7.at"
+        }
+      ]
+    }
+  ],
+  "description": "\u00d6sterreichische Extension zum internationalen FHIR-Value-Set http://hl7.org/fhir/ValueSet/administrative-gender ",
+  "compose": {
+    "include": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+        "version": "1.0.0+20231113",
+        "concept": [
+          {
+            "code": "D",
+            "display": "Divers"
+          },
+          {
+            "code": "I",
+            "display": "Inter"
+          },
+          {
+            "code": "O",
+            "display": "Offen"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2023-11-14T12:58:22Z",
+    "contains": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+        "version": "1.0.0+20231113",
+        "code": "D",
+        "display": "Divers"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+        "version": "1.0.0+20231113",
+        "code": "I",
+        "display": "Inter"
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/hl7-at-administrativegender-ergaenzung",
+        "version": "1.0.0+20231113",
+        "code": "O",
+        "display": "Offen"
+      }
+    ]
+  }
+}

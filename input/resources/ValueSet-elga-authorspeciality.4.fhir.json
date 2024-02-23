@@ -1,0 +1,1771 @@
+{
+  "resourceType": "ValueSet",
+  "id": "elga-authorspeciality",
+  "url": "https://termgit.elga.gv.at/ValueSet/elga-authorspeciality",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.40.0.34.10.6"
+    }
+  ],
+  "version": "1.2.1+20240129",
+  "name": "elga-authorspeciality",
+  "title": "ELGA_AuthorSpeciality",
+  "status": "active",
+  "date": "2024-01-29",
+  "publisher": "see",
+  "contact": [
+    {
+      "name": "https://www.bmg.gv.at",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.bmg.gv.at"
+        }
+      ]
+    }
+  ],
+  "description": "**Description:** Medical speciality of the documents author. Usage in CDA: AssignedAuthor.code.  Usage in XDS-Metadata: authorSpeciality\n\n**Beschreibung:** Medizinische Fachrichtung der Person, welche ein Dokument verfasst. Verwendung in CDA: AssignedAuthor.code.  Verwendung in XDS-Metadaten: authorSpeciality     Wird \u00fcber eine Verordnung zum GTelG ver\u00f6ffentlicht",
+  "compose": {
+    "inactive": true,
+    "include": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+        "version": "1.0.0+20230131",
+        "concept": [
+          {
+            "code": "10",
+            "display": "Teil 1: Rollen f\u00fcr Personen"
+          },
+          {
+            "code": "100",
+            "display": "\u00c4rztin/Arzt f\u00fcr Allgemeinmedizin",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "\u00c4rztin/Arzt f\u00fcr Allgemeinmedizin, gegebenenfalls unter Beif\u00fcgung der gem\u00e4\u00df \u00c4rztinnen-/\u00c4rzte-Ausbildungsordnung\u00a02006 (\u00c4AO\u00a02006), BGBl.\u00a0II Nr.\u00a0286/2006, in der jeweils geltenden Fassung, zutreffenden Zusatzbezeichnung des Additivfaches in runden Klammern"
+              }
+            ]
+          },
+          {
+            "code": "101",
+            "display": "Approbierte \u00c4rztin/Approbierter Arzt"
+          },
+          {
+            "code": "158",
+            "display": "Fach\u00e4rztin/Facharzt",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Fach\u00e4rztin/Facharzt, unter Beif\u00fcgung der gem\u00e4\u00df \u00c4AO\u00a02006 zutreffenden Berufsbezeichnung"
+              }
+            ]
+          },
+          {
+            "code": "154",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Zahn-, Mund- und Kieferheilkunde"
+          },
+          {
+            "code": "155",
+            "display": "Zahn\u00e4rztin/Zahnarzt"
+          },
+          {
+            "code": "156",
+            "display": "Dentistin/Dentist"
+          },
+          {
+            "code": "200",
+            "display": "Psychotherapeutin/Psychotherapeut"
+          },
+          {
+            "code": "201",
+            "display": "Klinische Psychologin/Klinischer Psychologe"
+          },
+          {
+            "code": "202",
+            "display": "Gesundheitspsychologin/Gesundheitspsychologe"
+          },
+          {
+            "code": "203",
+            "display": "Musiktherapeutin/Musiktherapeut"
+          },
+          {
+            "code": "204",
+            "display": "Hebamme"
+          },
+          {
+            "code": "205",
+            "display": "Physiotherapeutin/Physiotherapeut"
+          },
+          {
+            "code": "206",
+            "display": "Biomedizinische Analytikerin/Biomedizinischer Analytiker"
+          },
+          {
+            "code": "207",
+            "display": "Radiologietechnologin/Radiologietechnologe"
+          },
+          {
+            "code": "208",
+            "display": "Di\u00e4tologin/Di\u00e4tologe"
+          },
+          {
+            "code": "209",
+            "display": "Ergotherapeutin/Ergotherapeut"
+          },
+          {
+            "code": "210",
+            "display": "Logop\u00e4din/Logop\u00e4de"
+          },
+          {
+            "code": "211",
+            "display": "Orthoptistin/Orthoptist"
+          },
+          {
+            "code": "212",
+            "display": "Diplomierte Gesundheits- und Krankenschwester/Diplomierter Gesundheits- und Krankenpfleger"
+          },
+          {
+            "code": "213",
+            "display": "Diplomierte Kinderkrankenschwester/Diplomierter Kinderkrankenpfleger"
+          },
+          {
+            "code": "214",
+            "display": "Diplomierte psychiatrische Gesundheits- und Krankenschwester/Diplomierter psychiatrischer Gesundheits- und Krankenpfleger"
+          },
+          {
+            "code": "215",
+            "display": "Heilmasseurin/Heilmasseur"
+          },
+          {
+            "code": "216",
+            "display": "Diplomierte Kardiotechnikerin/Diplomierter Kardiotechniker"
+          },
+          {
+            "code": "20",
+            "display": "Teil\u00a02: Rollen f\u00fcr Organisationen"
+          },
+          {
+            "code": "300",
+            "display": "Allgemeine Krankenanstalt"
+          },
+          {
+            "code": "301",
+            "display": "Sonderkrankenanstalt"
+          },
+          {
+            "code": "302",
+            "display": "Pflegeanstalt"
+          },
+          {
+            "code": "303",
+            "display": "Sanatorium"
+          },
+          {
+            "code": "304",
+            "display": "Selbstst\u00e4ndiges Ambulatorium"
+          },
+          {
+            "code": "305",
+            "display": "Pflegeeinrichtung"
+          },
+          {
+            "code": "306",
+            "display": "Mobile Pflege"
+          },
+          {
+            "code": "307",
+            "display": "Kuranstalt"
+          },
+          {
+            "code": "309",
+            "display": "Straf- und Ma\u00dfnahmenvollzug"
+          },
+          {
+            "code": "310",
+            "display": "Untersuchungsanstalt"
+          },
+          {
+            "code": "311",
+            "display": "\u00d6ffentliche Apotheke"
+          },
+          {
+            "code": "312",
+            "display": "Gewebebank"
+          },
+          {
+            "code": "313",
+            "display": "Blutspendeeinrichtung"
+          },
+          {
+            "code": "314",
+            "display": "Augen- und Kontaktlinsenoptik"
+          },
+          {
+            "code": "315",
+            "display": "H\u00f6rger\u00e4teakustik"
+          },
+          {
+            "code": "316",
+            "display": "Orthop\u00e4dische Produkte"
+          },
+          {
+            "code": "317",
+            "display": "Zahntechnik"
+          },
+          {
+            "code": "318",
+            "display": "Rettungsdienst"
+          },
+          {
+            "code": "319",
+            "display": "Zahn\u00e4rztliche Gruppenpraxis"
+          },
+          {
+            "code": "320",
+            "display": "\u00c4rztliche Gruppenpraxis"
+          },
+          {
+            "code": "321",
+            "display": "Gewebeentnahmeeinrichtung"
+          },
+          {
+            "code": "322",
+            "display": "Arbeitsmedizinisches Zentrum"
+          },
+          {
+            "code": "400",
+            "display": "Gesundheitsmanagement"
+          },
+          {
+            "code": "401",
+            "display": "\u00d6ffentlicher Gesundheitsdienst"
+          },
+          {
+            "code": "403",
+            "display": "ELGA-Ombudsstelle"
+          },
+          {
+            "code": "404",
+            "display": "Widerspruchstelle"
+          },
+          {
+            "code": "405",
+            "display": "Patientenvertretung"
+          },
+          {
+            "code": "406",
+            "display": "Sozialversicherung"
+          },
+          {
+            "code": "407",
+            "display": "Krankenf\u00fcrsorge"
+          },
+          {
+            "code": "408",
+            "display": "Gesundheitsversicherung"
+          },
+          {
+            "code": "500",
+            "display": "IKT-Gesundheitsservice"
+          },
+          {
+            "code": "501",
+            "display": "Verrechnungsservice"
+          },
+          {
+            "code": "30",
+            "display": "Erg\u00e4nzende Rollen"
+          },
+          {
+            "code": "157",
+            "display": "\u00c4rztin/Arzt in Ausbildung"
+          },
+          {
+            "code": "217",
+            "display": "Pflegeassistentin/Pflegeassistent"
+          },
+          {
+            "code": "218",
+            "display": "Pflegefachassistentin/Pflegefachassistent"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+        "version": "1.1.0+20230622",
+        "concept": [
+          {
+            "code": "102",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr An\u00e4sthesiologie und Intensivmedizin"
+          },
+          {
+            "code": "103",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Anatomie"
+          },
+          {
+            "code": "104",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Arbeitsmedizin und angewandte Physiologie"
+          },
+          {
+            "code": "105",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Augenheilkunde und Optometrie"
+          },
+          {
+            "code": "106",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Transfusionsmedizin"
+          },
+          {
+            "code": "107",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Chirurgie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "108",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Frauenheilkunde und Geburtshilfe"
+          },
+          {
+            "code": "109",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Gerichtsmedizin"
+          },
+          {
+            "code": "110",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Hals-, Nasen- und Ohrenheilkunde"
+          },
+          {
+            "code": "111",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Haut- und Geschlechtskrankheiten"
+          },
+          {
+            "code": "112",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Herzchirurgie"
+          },
+          {
+            "code": "113",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Histologie, Embryologie und Zellbiologie"
+          },
+          {
+            "code": "114",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Mikrobiologie und Hygiene"
+          },
+          {
+            "code": "115",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Immunologie"
+          },
+          {
+            "code": "116",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin"
+          },
+          {
+            "code": "117",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Kinder- und Jugendchirurgie"
+          },
+          {
+            "code": "118",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Kinder- und Jugendheilkunde"
+          },
+          {
+            "code": "119",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Kinder- und Jugendpsychiatrie und Psychotherapeutische Medizin"
+          },
+          {
+            "code": "120",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Lungenkrankheiten",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "121",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Biologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "122",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Biophysik",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "123",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Genetik"
+          },
+          {
+            "code": "124",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische und Chemische Labordiagnostik"
+          },
+          {
+            "code": "125",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Leistungsphysiologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "126",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Mikrobiologisch-Serologische Labordiagnostik",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "127",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Mund-, Kiefer- und Gesichtschirurgie"
+          },
+          {
+            "code": "128",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurobiologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "129",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurochirurgie"
+          },
+          {
+            "code": "130",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurologie"
+          },
+          {
+            "code": "131",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurologie und Psychiatrie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "132",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Pathologie und Neuropathologie"
+          },
+          {
+            "code": "133",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Nuklearmedizin"
+          },
+          {
+            "code": "134",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Orthop\u00e4die und Traumatologie"
+          },
+          {
+            "code": "135",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Pathologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "136",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Pathophysiologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "137",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Pharmakologie und Toxikologie"
+          },
+          {
+            "code": "138",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Physikalische Medizin und Allgemeine Rehabilitation"
+          },
+          {
+            "code": "139",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Physiologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "140",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Plastische, Rekonstruktive und \u00c4sthetische Chirurgie"
+          },
+          {
+            "code": "141",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Psychiatrie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "142",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Psychiatrie und Neurologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "143",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Psychiatrie und Psychotherapeutische Medizin"
+          },
+          {
+            "code": "144",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Radiologie"
+          },
+          {
+            "code": "145",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Sozialmedizin",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "146",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Immunologie und Spezifische Prophylaxe und Tropenmedizin"
+          },
+          {
+            "code": "147",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Strahlentherapie-Radioonkologie"
+          },
+          {
+            "code": "148",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Theoretische Sonderf\u00e4cher",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "149",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Thoraxchirurgie"
+          },
+          {
+            "code": "150",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Tumorbiologie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "151",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Unfallchirurgie",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "152",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Urologie"
+          },
+          {
+            "code": "153",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Mikrobiologie und Virologie"
+          },
+          {
+            "code": "154",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Zahn-, Mund- und Kieferheilkunde",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "hints",
+                  "display": "hints"
+                },
+                "value": "DEPRECATED"
+              }
+            ]
+          },
+          {
+            "code": "155",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Allgemeinchirurgie und Viszeralchirurgie"
+          },
+          {
+            "code": "156",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Allgemeinchirurgie und Gef\u00e4\u00dfchirurgie"
+          },
+          {
+            "code": "157",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Angiologie"
+          },
+          {
+            "code": "158",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Endokrinologie und Diabetologie"
+          },
+          {
+            "code": "159",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Gastroenterologie und Hepatologie"
+          },
+          {
+            "code": "160",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und H\u00e4matologie und internistische Onkologie"
+          },
+          {
+            "code": "161",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Infektiologie"
+          },
+          {
+            "code": "162",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Intensivmedizin"
+          },
+          {
+            "code": "163",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Kardiologie"
+          },
+          {
+            "code": "164",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Nephrologie"
+          },
+          {
+            "code": "165",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Pneumologie"
+          },
+          {
+            "code": "166",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Rheumatologie"
+          },
+          {
+            "code": "167",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Pathologie und Molekularpathologie"
+          },
+          {
+            "code": "168",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Public Health"
+          },
+          {
+            "code": "169",
+            "display": "Fach\u00e4rztin/Facharzt f\u00fcr Physiologie und Pathophysiologie"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "timestamp": "2024-01-30T15:56:40Z",
+    "contains": [
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+        "abstract": true,
+        "version": "1.0.0+20230131",
+        "code": "10",
+        "display": "Teil 1: Rollen f\u00fcr Personen",
+        "contains": [
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "100",
+            "display": "\u00c4rztin/Arzt f\u00fcr Allgemeinmedizin",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "\u00c4rztin/Arzt f\u00fcr Allgemeinmedizin, gegebenenfalls unter Beif\u00fcgung der gem\u00e4\u00df \u00c4rztinnen-/\u00c4rzte-Ausbildungsordnung\u00a02006 (\u00c4AO\u00a02006), BGBl.\u00a0II Nr.\u00a0286/2006, in der jeweils geltenden Fassung, zutreffenden Zusatzbezeichnung des Additivfaches in runden Klammern"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "101",
+            "display": "Approbierte \u00c4rztin/Approbierter Arzt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "158",
+            "display": "Fach\u00e4rztin/Facharzt",
+            "designation": [
+              {
+                "use": {
+                  "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                  "code": "concept_beschreibung",
+                  "display": "concept_beschreibung"
+                },
+                "value": "Fach\u00e4rztin/Facharzt, unter Beif\u00fcgung der gem\u00e4\u00df \u00c4AO\u00a02006 zutreffenden Berufsbezeichnung"
+              }
+            ],
+            "contains": [
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+                "version": "1.0.0+20230131",
+                "code": "154",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Zahn-, Mund- und Kieferheilkunde"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "102",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr An\u00e4sthesiologie und Intensivmedizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "103",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Anatomie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "104",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Arbeitsmedizin und angewandte Physiologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "105",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Augenheilkunde und Optometrie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "106",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Transfusionsmedizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "107",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Chirurgie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "108",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Frauenheilkunde und Geburtshilfe"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "109",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Gerichtsmedizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "110",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Hals-, Nasen- und Ohrenheilkunde"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "111",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Haut- und Geschlechtskrankheiten"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "112",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Herzchirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "113",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Histologie, Embryologie und Zellbiologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "114",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Mikrobiologie und Hygiene"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "115",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Immunologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "116",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "117",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Kinder- und Jugendchirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "118",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Kinder- und Jugendheilkunde"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "119",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Kinder- und Jugendpsychiatrie und Psychotherapeutische Medizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "120",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Lungenkrankheiten",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "121",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Biologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "122",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Biophysik",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "123",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Genetik"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "124",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische und Chemische Labordiagnostik"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "125",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Medizinische Leistungsphysiologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "126",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Mikrobiologisch-Serologische Labordiagnostik",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "127",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Mund-, Kiefer- und Gesichtschirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "128",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurobiologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "129",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurochirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "130",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "131",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Neurologie und Psychiatrie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "132",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Pathologie und Neuropathologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "133",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Nuklearmedizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "134",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Orthop\u00e4die und Traumatologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "135",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Pathologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "136",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Pathophysiologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "137",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Pharmakologie und Toxikologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "138",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Physikalische Medizin und Allgemeine Rehabilitation"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "139",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Physiologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "140",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Plastische, Rekonstruktive und \u00c4sthetische Chirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "141",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Psychiatrie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "142",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Psychiatrie und Neurologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "143",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Psychiatrie und Psychotherapeutische Medizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "144",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Radiologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "145",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Sozialmedizin",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "146",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Immunologie und Spezifische Prophylaxe und Tropenmedizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "147",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Strahlentherapie-Radioonkologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "148",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Theoretische Sonderf\u00e4cher",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "149",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Thoraxchirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "150",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Tumorbiologie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "151",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Unfallchirurgie",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "152",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Urologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "153",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Mikrobiologie und Virologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "inactive": true,
+                "version": "1.1.0+20230622",
+                "code": "154",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Zahn-, Mund- und Kieferheilkunde",
+                "designation": [
+                  {
+                    "use": {
+                      "system": "https://termgit.elga.gv.at/CodeSystem/austrian-designation-use",
+                      "code": "hints",
+                      "display": "hints"
+                    },
+                    "value": "DEPRECATED"
+                  }
+                ]
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "155",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Allgemeinchirurgie und Viszeralchirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "156",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Allgemeinchirurgie und Gef\u00e4\u00dfchirurgie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "157",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Angiologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "158",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Endokrinologie und Diabetologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "159",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Gastroenterologie und Hepatologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "160",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und H\u00e4matologie und internistische Onkologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "161",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Infektiologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "162",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Intensivmedizin"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "163",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Kardiologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "164",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Nephrologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "165",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Pneumologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "166",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Innere Medizin und Rheumatologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "167",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Klinische Pathologie und Molekularpathologie"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "168",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Public Health"
+              },
+              {
+                "system": "https://termgit.elga.gv.at/CodeSystem/elga-fachaerzte",
+                "version": "1.1.0+20230622",
+                "code": "169",
+                "display": "Fach\u00e4rztin/Facharzt f\u00fcr Physiologie und Pathophysiologie"
+              }
+            ]
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "155",
+            "display": "Zahn\u00e4rztin/Zahnarzt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "156",
+            "display": "Dentistin/Dentist"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "200",
+            "display": "Psychotherapeutin/Psychotherapeut"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "201",
+            "display": "Klinische Psychologin/Klinischer Psychologe"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "202",
+            "display": "Gesundheitspsychologin/Gesundheitspsychologe"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "203",
+            "display": "Musiktherapeutin/Musiktherapeut"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "204",
+            "display": "Hebamme"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "205",
+            "display": "Physiotherapeutin/Physiotherapeut"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "206",
+            "display": "Biomedizinische Analytikerin/Biomedizinischer Analytiker"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "207",
+            "display": "Radiologietechnologin/Radiologietechnologe"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "208",
+            "display": "Di\u00e4tologin/Di\u00e4tologe"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "209",
+            "display": "Ergotherapeutin/Ergotherapeut"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "210",
+            "display": "Logop\u00e4din/Logop\u00e4de"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "211",
+            "display": "Orthoptistin/Orthoptist"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "212",
+            "display": "Diplomierte Gesundheits- und Krankenschwester/Diplomierter Gesundheits- und Krankenpfleger"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "213",
+            "display": "Diplomierte Kinderkrankenschwester/Diplomierter Kinderkrankenpfleger"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "214",
+            "display": "Diplomierte psychiatrische Gesundheits- und Krankenschwester/Diplomierter psychiatrischer Gesundheits- und Krankenpfleger"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "215",
+            "display": "Heilmasseurin/Heilmasseur"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "216",
+            "display": "Diplomierte Kardiotechnikerin/Diplomierter Kardiotechniker"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+        "abstract": true,
+        "version": "1.0.0+20230131",
+        "code": "20",
+        "display": "Teil\u00a02: Rollen f\u00fcr Organisationen",
+        "contains": [
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "300",
+            "display": "Allgemeine Krankenanstalt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "301",
+            "display": "Sonderkrankenanstalt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "302",
+            "display": "Pflegeanstalt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "303",
+            "display": "Sanatorium"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "304",
+            "display": "Selbstst\u00e4ndiges Ambulatorium"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "305",
+            "display": "Pflegeeinrichtung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "306",
+            "display": "Mobile Pflege"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "307",
+            "display": "Kuranstalt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "309",
+            "display": "Straf- und Ma\u00dfnahmenvollzug"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "310",
+            "display": "Untersuchungsanstalt"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "311",
+            "display": "\u00d6ffentliche Apotheke"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "312",
+            "display": "Gewebebank"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "313",
+            "display": "Blutspendeeinrichtung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "314",
+            "display": "Augen- und Kontaktlinsenoptik"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "315",
+            "display": "H\u00f6rger\u00e4teakustik"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "316",
+            "display": "Orthop\u00e4dische Produkte"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "317",
+            "display": "Zahntechnik"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "318",
+            "display": "Rettungsdienst"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "319",
+            "display": "Zahn\u00e4rztliche Gruppenpraxis"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "320",
+            "display": "\u00c4rztliche Gruppenpraxis"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "321",
+            "display": "Gewebeentnahmeeinrichtung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "322",
+            "display": "Arbeitsmedizinisches Zentrum"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "400",
+            "display": "Gesundheitsmanagement"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "401",
+            "display": "\u00d6ffentlicher Gesundheitsdienst"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "403",
+            "display": "ELGA-Ombudsstelle"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "404",
+            "display": "Widerspruchstelle"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "405",
+            "display": "Patientenvertretung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "406",
+            "display": "Sozialversicherung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "407",
+            "display": "Krankenf\u00fcrsorge"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "408",
+            "display": "Gesundheitsversicherung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "500",
+            "display": "IKT-Gesundheitsservice"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "501",
+            "display": "Verrechnungsservice"
+          }
+        ]
+      },
+      {
+        "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+        "abstract": true,
+        "version": "1.0.0+20230131",
+        "code": "30",
+        "display": "Erg\u00e4nzende Rollen",
+        "contains": [
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "157",
+            "display": "\u00c4rztin/Arzt in Ausbildung"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "217",
+            "display": "Pflegeassistentin/Pflegeassistent"
+          },
+          {
+            "system": "https://termgit.elga.gv.at/CodeSystem/elga-gtelvogdarollen",
+            "version": "1.0.0+20230131",
+            "code": "218",
+            "display": "Pflegefachassistentin/Pflegefachassistent"
+          }
+        ]
+      }
+    ]
+  }
+}
